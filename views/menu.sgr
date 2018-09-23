@@ -1,0 +1,8 @@
+nav
+  ul
+    if(condition="{{pageId}} === 'index'")
+      li 
+        a(href="/index") Home
+    each(loop="item of navigation.data")
+      li
+        a(href="/{{ item.slug }}") {{ item.name }}

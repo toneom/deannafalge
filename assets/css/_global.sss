@@ -1,0 +1,99 @@
+@import 'fonts.sss'
+body
+  padding     : 0px 50px
+  font-family : system-ui
+
+
+main
+  position: relative
+  width:    90%
+  margin:   auto
+  @media (min-width: 975px)
+    width:  1200px
+      
+
+h2
+  font-weight: normal
+
+div.branding
+  display: inline-block
+  
+  & img
+    display   : inline-block
+    width     : 100px
+  
+  & div.container
+    display           : inline-block
+    vertical-align    : top
+    margin-left       : 0em
+    
+    & .title, & h1
+      font-family             : 'caviar_dreamsregular'
+      -webkit-margin-after    : 0em
+      -webkit-margin-before   : 0em
+      margin-top              : 0px
+      margin-bottom           : 0px
+      font-size               : 3.6em
+      line-height             : 1em
+      color                   : #939598
+      
+    & .tagline
+      margin-left             : .5em
+      font-style              : italic
+      font-weight             : 600
+
+img.headerBanner
+  width: 100%
+
+ul
+  &.subheader
+    margin-bottom: .5em
+    & li
+      font-size: 1.1em
+      
+
+  &.contact
+    & li
+      font-size: .9em      
+
+  &.horizontal-bullet
+    text-align        : center
+    background-color  : #f4f2ea
+    padding           : .5em 0
+    
+    & li
+      display : inline-block
+      
+    & li:before
+      content : '\00a0\2022\00a0\00a0' 
+    
+    & li:first-child:before
+      content : ''
+
+nav
+  position: absolute
+  margin-left: 43px
+  vertical-align: bottom
+  font-size: 1.2em
+  margin-top: 0px
+  right: 0px
+  top: 0px
+  & ul
+    text-align    : center
+    margin-top    : .5em
+    margin-bottom : .5em
+    
+    & li
+      display     : inline-block
+      padding     : 1em
+      font-size   : 1em
+    
+      & a
+        text-decoration: none
+        color: #000
+      & a:hover
+        color: #d7df21
+
+    & li:first-child
+      padding-left: 0em
+    

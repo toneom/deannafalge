@@ -1,0 +1,6 @@
+extends(src='page.sgr')
+  block(name='title')
+    title About Thrive
+  header(name='header')
+  
+  block(name='content')

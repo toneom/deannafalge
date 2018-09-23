@@ -1,0 +1,17 @@
+extends(src='layout.sgr')
+  
+  block(name='header')
+    div(class='branding')
+      img(src='/img/global-logo.png' alt='' )
+      div(class='container')
+        h1(class="title") Thrive
+        span(class="tagline") empowering teens
+
+    include(src='header.sgr')
+
+  block(name='content')
+    img(src='/img/header-home.png' class='headerBanner')
+    h2 Teen empowerment through 1-on-1 tutoring, academic coaching, and life coaching in Santa Cruz County and Los Gatos, California
+    
+  block(name='footer')
+    include(src='footer.sgr')

@@ -1,0 +1,6 @@
+include(src='menu.sgr')
+
+ul(class="subheader horizontal-bullet")
+  li Tutoring
+  li Academic Coaching
+  li Personal Development
