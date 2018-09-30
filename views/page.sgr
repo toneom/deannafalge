@@ -1,9 +1,0 @@
-extends(src='layout.sgr')
-  block(name='header')
-    div(class='header')  
-      div(class='branding')
-        img(src='/img/global-logo.png' alt='Thrive') 
-        span(class="title") Thrive
-        span(class="tagline") empowering teens  
-         
-  block(name='content')    
