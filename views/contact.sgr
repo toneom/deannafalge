@@ -1,0 +1,19 @@
+extends(src='layout.sgr')
+  block(name='title')
+    title Services
+
+  block(name='content')
+    img(src='/img/girl-tree-reading-1200x511.jpg' class='headerBanner')
+    p Phone & Email
+    p Contact Form:
+    p Student Name
+    p Parent Email
+    p Parent Name(s)
+    p Parent Phone Number
+    p Location
+    p Grade Level
+    p School
+    p Intentions & Goals
+    p Any Other Important Information About Student
+    p Availability
+    p How did you hear about Thrive?

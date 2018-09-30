@@ -1,6 +1,24 @@
-extends(src='page.sgr')
+extends(src='layout.sgr')
   block(name='title')
     title About Thrive
-  header(name='header')
-  
+
+
   block(name='content')
+    img(src='/img/cliff-meditating-750-319.jpg' class='headerBanner')
+    h2 About the Program
+
+    p(class='centered') Thrive believes that every person has unique, important gifts to offer themselves and the world. Thrive helps teens realize, appreciate, and apply their gifts. When utilizing their gifts to make the world a better place, teens are empowered. Thrive is different for every teen.
+
+    p(class='centered') Tutoring, academic coaching, and self development are the main areas of focus, but the program is shaped around each student’s individual needs and dreams. While one person may want to strengthen organizational skills and study habits, another may want to build self-confidence and public speaking abilities. The program always depends on the individual.
+
+    p(class='centered') Instructor Deanna Falge meets with teens 1-on-1 in Santa Cruz County and Los Gatos, California. Sessions take place at a student’s home, coffee shop, library, or park- wherever is convenient for the student.
+
+    h2 About Deanna
+    div(class='imageTextLtr')
+      img(src='/img/deanna-scenery.jpg' )
+      div(class='container ')
+        p Deanna’s life mission is to inspire and empower youth. She highly values and appreciates the deep connections she develops with each of her students.
+
+        p Deanna has been engaged in many roles throughout her life: outdoor educator, tutor, college teaching assistant, academic coach, substitute teacher, dance instructor, youth mentor, research technician, animal trainer, youth camp instructor, performer, and student. In Thrive, Deanna combines her degree in Biological Psychology and years of teaching experience with her deep passion for serving youth.
+
+        p When she is not meeting with her students or guiding groups of children in nature, Deanna is probably surfing, dancing, playing music, rock climbing, hiking, gardening, creating art, meditating, or spending quality time with her friends and family.

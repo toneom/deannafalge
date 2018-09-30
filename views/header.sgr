@@ -1,6 +1,6 @@
-include(src='menu.sgr')
-
-ul(class="subheader horizontal-bullet")
+ul(class="subheader horizontalBullet")
   li Tutoring
   li Academic Coaching
-  li Personal Development
+  li Self Development
+
+include(src='menu.sgr')

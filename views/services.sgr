@@ -1,0 +1,47 @@
+extends(src='layout.sgr')
+  block(name='title')
+    title Services
+
+
+  block(name='content')
+    img(src='/img/girl-smile-books-1200x510.jpg' class='headerBanner')
+    h2(class='centered')
+      i Thrive empowers teens in the following services:
+
+    h2(class='centered') Tutoring
+    ul(class='centered')
+      li Math: Pre-algebra, Algebra I/II, Pre-Calculus, Trigonometry
+      li Science: Biology, Chemistry
+      li Humanities: Reading Comprehension, Essays, Creative Writing, Public Speaking
+      li Spanish: Spanish I
+
+    h2(class='centered') Academic Coaching
+    ul(class='centered')
+      li Homework Management
+      li Note Taking Skills
+      li Test Preparation
+      li Study Strategies
+      li Planning Ahead
+      li Organization
+      li Execution and Completion of Projects
+      li Academic Independence
+      li Executive Functioning Skills
+      li Post-High School & College Advising
+      li College App Essays
+      li Resume and Cover Letters
+
+    h2(class='centered') Self Development
+    ul(class='centered')
+      li School/Life Balance
+      li Self Confidence
+      li Life Path & Career Exploration
+      li Goal Inspiration, Setting, & Actualization
+      li Job Seeking & Employability
+      li Community Engagement
+      li Mindfulness Practice
+      li Emotional Intelligence Training
+      li Non-Violent Communication
+      li Stress Management, Reduction, & Prevention
+      li Technology & Social Media Management
+      li Outdoor, Social, and Global Awareness
+      li Independent Living Skills

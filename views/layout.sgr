@@ -15,7 +15,16 @@ html
   body
     main(role='main' id='{{ pageId }}')
       block(name='header')
+        div(class='header')
+          div(class='branding')
+            img(src='/img/global-logo.png' alt='' )
+            div(class='container')
+              span(class="title") Thrive
+              span(class="tagline") empowering teens
+
+          include(src='header.sgr')
       block(name='content')
       block(name='footer')
+        include(src='footer.sgr')
     block(name='javascript')
       script(src='js/main.js' defer)

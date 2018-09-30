@@ -1,5 +1,5 @@
 extends(src='layout.sgr')
-  
+
   block(name='header')
     div(class='branding')
       img(src='/img/global-logo.png' alt='' )
@@ -10,8 +10,5 @@ extends(src='layout.sgr')
     include(src='header.sgr')
 
   block(name='content')
-    img(src='/img/header-home.png' class='headerBanner')
-    h2 Teen empowerment through 1-on-1 tutoring, academic coaching, and life coaching in Santa Cruz County and Los Gatos, California
-    
-  block(name='footer')
-    include(src='footer.sgr')
+    img(src='/img/girl-field-sun-1200x511.jpg' class='headerBanner')
+    h2 Teen empowerment through 1-on-1 tutoring, academic coaching, and self development in Santa Cruz County and Los Gatos, California
