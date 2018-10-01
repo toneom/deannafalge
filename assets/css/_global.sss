@@ -6,9 +6,10 @@
   margin-top    : var(--gutter)
 
 body
-  padding     : 0px 50px
+  padding     : 0
   font-family : system-ui
-
+  @media (min-width: 430px )
+    padding     : 0px 50px
   & p, & li
     line-height : 2em
 
@@ -128,9 +129,11 @@ div.branding
       -webkit-margin-before   : 0em
       margin-top              : 0px
       margin-bottom           : 0px
-      font-size               : 3.6em
+      font-size               : 3.2em
       line-height             : 1em
       color                   : #939598
+      @media (min-width: 430px )
+        font-size             : 3.6em
 
     & .tagline
       margin-left             : .5em
