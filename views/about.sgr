@@ -4,7 +4,7 @@ extends(src='layout.sgr')
 
 
   block(name='content')
-    img(src='/img/cliff-meditating-750-319.jpg' class='headerBanner')
+    img(src='/img/boy-rock-forest-1200x510.jpg' class='headerBanner')
     h2 About the Program
 
     p(class='centered') Thrive believes that every person has unique, important gifts to offer themselves and the world. Thrive helps teens realize, appreciate, and apply their gifts. When utilizing their gifts to make the world a better place, teens are empowered. Thrive is different for every teen.

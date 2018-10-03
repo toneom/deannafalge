@@ -1,17 +1,20 @@
 @import 'fonts.sss'
-:root
-  --gutter : 2em
+@import 'vars.sss'
 
 .top-gutter
-  margin-top    : var(--gutter)
+  margin-top  : var(--gutterMobile)
+  @media(min-width: 800px )
+    margin-top    : var(--gutter)
 
 body
   padding     : 0
   font-family : system-ui
-  @media (min-width: 430px )
+  @media (min-width: 800px )
     padding     : 0px 50px
   & p, & li
-    line-height : 2em
+    line-height : var(--linespaceMobile)
+    @media (min-width: 800px )
+      line-height : var(--linespace)
 
 .centered
   text-align: center
@@ -25,23 +28,35 @@ ul.centered
   margin-right  : 2em
   font-style    : italic
 
-
-
 main
-  position: relative
-  width:    90%
-  margin:   auto
-  max-width:  1200px
+  position            : relative
+  width               : 100%
+  margin              : auto
+  max-width           : 1200px
+  text-align          : center
   @media (min-width: 1200px )
     font-weight       : normal
+  @media (min-width: 800px)
+    width             : 90%
+
   & p
     margin: .5em
+
   & h1
     text-align: center
+
   & h2
-    font-weight: normal
-    margin: var(--gutter) auto 0
-    text-align: center
+    font-weight       : normal
+    margin            : var(--gutterMobile) auto 0
+    @media(min-width: 800px )
+      margin          : var(--gutter) auto 0
+
+  &#index
+    & h2
+      font-size       :  1em
+      @media(min-width: 440px )
+        font-size     : 1.5em
+
   & nav
     font-size: 1.2em
     @media (min-width: 1200px )
@@ -50,66 +65,107 @@ main
       vertical-align  : bottom
       font-size       : 1.2em
       margin-top      : 0px
-      right           : 0px
-      top             : 0px
+      right           : 20px
+      top             : 10px
 
     & ul
+      margin-left   : 0
+      padding-left  : 0
       text-align    : center
       margin-top    : .5em
       margin-bottom : .5em
 
       & li
-        display     : inline-block
-        padding     : 1em
-        font-size   : 1em
+        display         : inline-block
+        padding         : .25em .5em
+        font-size       : .8em
+
+        @media (min-width: 800px )
+          font-size     : 1em
+
+        @media (min-width: 660px )
+          padding       : .25em 1em
+          font-size     : .9em
+
+        &:first-child
+          padding-left  : 0em
+
+        &:last-child
+          padding-right : 0em
 
         & a
           text-decoration: none
           color: #000
+
         & a:hover, & a.selected
-          color: #d7df21
-
-
-
-  &#services
-
-    & h2
-      font-weight: normal
-      text-align: center
-      margin-top: 1.5em
-      margin-bottom: 0
-
+          /* color: #d7df21 */
+          color: var(--color2 )
 
 div.imageTextLtr
   position    : relative
   overflow    : hidden
+
   & img
     display   : block
-    width     : 80%
+    width     : 50%
     padding   : 1em
     margin    : auto
     @media (min-width: 768px )
       width   : 50%
-
     @media (min-width: 1000px )
-      padding   : 0
+      padding   : 1em
       width     : 30%
       float     : left
+
   & .container
-    display   : block
+    display     : block
 
     @media (min-width: 1000px )
       float     : left
-      width     : 70%
-    & p
-      padding-left   : 1em
+      width     : 65%
+
+
+#testimonials div.imageTextLtr
+  margin-top            : var(--gutterTop)
+  padding-bottom         : var(--gutter)
+  border-bottom          : 1px solid var(--color3)
+
+  &:last-child
+    border-bottom         : none
+    margin-bottom         : 0
+    padding-bottom        : 0
+
+  & div.container
+    @media (min-width: 1000px )
+      position: absolute
+      right: 0
+      top: 50%
+      transform: translateY(-50%)
+
+  & p
+    &:first-child
+      margin-top : 0
+      padding-top : 0
+
+
+  /* position              : relative
+  background-color      : rgb(249,255,114, .10)
+  box-shadow            : 1px 1px 4px rgb(150,153,84,.1)
+  padding               : 2em
+
+  * img
+    padding-right: 2em
+  & .author
+    position            : absolute
+    bottom              : 0px
+    right               : 0px */
 
 
 div.branding
   display: block
   text-align: center
   @media (min-width: 1200px )
-    display: inline-block
+    display: block
     text-align: left
 
   & img
@@ -146,14 +202,22 @@ img.headerBanner
   width: 100%
 
 ul
+
   &.subheader
     margin-bottom: 0em
-    & li
-      font-size: 1.1em
 
+    & li
+      font-size: .85em
+      @media (min-width: 460px )
+        font-size: 1.1em
 
   &.contact
-    margin-top: 4em
+    font-size: .8em
+    margin-top: var(--gutterBottomMobile)
+    @media (min-width: 800px )
+      font-size: .9em
+      margin-top: var(--gutterBottom)
+
     & li
       font-size: .9em
 

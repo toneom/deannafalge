@@ -2,15 +2,16 @@ extends(src='layout.sgr')
   block(name='title')
     title Testimonials
 
-
   block(name='content')
     img(src='/img/silouette-splashing-sun.jpg' class='headerBanner')
+    div
 
-    div(class='imageTextLtr')
-      p [photo of Romi and Noa]
-      p Deanna is one of the best tutors Romi had.  Not only is she knowledgeable with the study material but knows how to teach in a way that any brain can understand. Very thorough, attentive and patient.  Romi received A’s with Deanna and was no longer afraid of tests and homework.
-      p(class="author") -Noa Sklar, Parent, Los Gatos
+      div(class='imageTextLtr top-gutter')
+        img(src='/img/noa-romi-1174x882.jpg')
+        div(class="container")
+          p Deanna is one of the best tutors Romi had.  Not only is she knowledgeable with the study material but knows how to teach in a way that any brain can understand. Very thorough, attentive and patient.  Romi received A’s with Deanna and was no longer afraid of tests and homework.
+          p(class="author") -Noa Sklar, Parent, Los Gatos
 
-    div(class='imageTextLtr')
-      p I really like Deanna's class because she helps guide me through my homework if I have trouble with it. And she usually does fun games with kids. I really like how she has a positive attitude towards everything, and she helped me get a lot of work done last year when I was in 8th grade. 
-      p(class="author") -Hana Ben-Dashan, Student, Scotts Valley
+      div(class='imageTextLtr top-gutter')
+        p I really like Deanna's class because she helps guide me through my homework if I have trouble with it. And she usually does fun games with kids. I really like how she has a positive attitude towards everything, and she helped me get a lot of work done last year when I was in 8th grade. 
+        p(class="author") -Hana Ben-Dashan, Student, Scotts Valley
