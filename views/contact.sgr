@@ -4,16 +4,40 @@ extends(src='layout.sgr')
 
   block(name='content')
     img(src='/img/girl-tree-reading-1200x511.jpg' class='headerBanner')
-    p Phone & Email
-    p Contact Form:
-    p Student Name
-    p Parent Email
-    p Parent Name(s)
-    p Parent Phone Number
-    p Location
-    p Grade Level
-    p School
-    p Intentions & Goals
-    p Any Other Important Information About Student
-    p Availability
-    p How did you hear about Thrive?
+    h2 Contact Us
+    form(name="contact" method="post" netlify)
+      p
+        label Student Name
+        input(type="text" name="name")
+      p
+        label Parent Names
+        input(type="text" name="parentNames")
+      p
+        label Parent Email
+        input(type="email" name="email")
+      p
+        label Parent Phone #
+        input(type="text" name="parentPhone")
+      p
+        label  Location
+        input(type="text" name="location")
+      p
+        label Grade Level
+        input(type="text" name="gradeLevel")
+      p
+        label School
+        input(type="text" name="school")
+      p
+        label Intentions & Goals
+        textarea( name="intentionGoals")
+      p
+        label Any Other Important Information About Students
+        textarea(type="text" name="otherInfo")
+      p
+        label Availability
+        textarea(type="text" name="availability")
+      p
+        label How did you hear about Thrive?
+        textarea(type="text" name="howHearAboutThrive")
+      p
+        button(type="submit") Send
