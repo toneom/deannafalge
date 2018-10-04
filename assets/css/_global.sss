@@ -231,6 +231,17 @@ ul
     & li
       font-size: .9em
 
+    &.horizontalBullet
+      & li
+        display : block
+        @media (min-width: 660px )
+          display : inline-block
+      & li:before
+        content: ''
+
+        @media (min-width: 660px )
+          content : '\00a0\2022\00a0\00a0'
+
   &.horizontalBullet
     text-align        : center
     background-color  : #f4f2ea
