@@ -1,11 +1,11 @@
 extends(src='layout.sgr')
   block(name='title')
-    title Services
+    title Contact Thrive
 
   block(name='content')
     img(src='/img/girl-tree-reading-1200x511.jpg' class='headerBanner')
-    h2 Contact Us
-    form(name="contact" method="post" netlify)
+    h2 Contact Thrive
+    form(name="contact" action="contact-success.html" method="post" netlify)
       p
         label Student Name
         input(type="text" name="name")

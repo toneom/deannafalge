@@ -1,0 +1,7 @@
+extends(src='layout.sgr')
+  block(name='title')
+    title Contact Submission Successful
+
+  block(name='content')
+    h2 Page Not Found
+    p We were unable to find the page you visited.  Please see the above links to find what you are looking for.
