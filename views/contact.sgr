@@ -10,7 +10,7 @@ extends(src='layout.sgr')
         label Student Name
         input(type="text" name="name")
       p
-        label Parent Names
+        label Parent Name(s)
         input(type="text" name="parentNames")
       p
         label Parent Email
@@ -31,7 +31,7 @@ extends(src='layout.sgr')
         label Intentions & Goals
         textarea( name="intentionGoals")
       p
-        label Any Other Important Information About Students
+        label Any other important information about your child
         textarea(type="text" name="otherInfo")
       p
         label Availability

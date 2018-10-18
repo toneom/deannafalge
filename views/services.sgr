@@ -5,8 +5,6 @@ extends(src='layout.sgr')
 
   block(name='content')
     img(src='/img/girl-smile-books-1200x510.jpg' class='headerBanner')
-    h2(class='centered')
-      i Thrive empowers teens in the following services:
 
     h2(class='centered') Tutoring
     ul(class='centered')

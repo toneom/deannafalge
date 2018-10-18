@@ -23,7 +23,9 @@ html
               span(class="tagline") empowering teens
 
           include(src='header.sgr')
-      block(name='content')
+      section(id='content')
+        block(name='content')
+
       block(name='footer')
         include(src='footer.sgr')
     block(name='javascript')

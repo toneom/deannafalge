@@ -1,6 +1,6 @@
 extends(src='layout.sgr')
   block(name='title')
-    title Contact Submission Successful
+    title Page Not Found
 
   block(name='content')
     h2 Page Not Found

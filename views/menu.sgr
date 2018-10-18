@@ -1,3 +1,7 @@
+button(id="mobile-menu-button" class="btnMenu")
+  span(class="bar")
+  span(class="text") Menu
+
 nav
   ul
     if(condition="pageId != 'index'")

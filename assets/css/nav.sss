@@ -1,0 +1,128 @@
+@media (min-width: 411px )
+  button#mobile-menu-button
+    display: none
+
+@media (max-width: 411px )
+  html
+    box-sizing: border-box
+    height: 100%
+
+  *, *:before, *:after
+    box-sizing: inherit
+
+
+  main
+    height: 100%
+    margin: 0
+
+  .btnMenu
+    display: block
+    border: 0
+    width: 30px
+    height: 25px
+    background-color: transparent
+    cursor        : pointer
+    position      : absolute
+    top           : 17px
+    right         : 0px
+    z-index       : 9999
+
+    @media (min-width: 350px)
+      right       : 20px
+
+    &:focus
+      outline     : 1px dotted #E0AE19
+    & .text
+      display: block
+      text-indent: 150%
+      white-space: nowrap
+      overflow: hidden
+
+    & .bar
+      top: 10px
+      left: 0
+
+    & .bar,
+    & .bar:before,
+    & .bar:after
+      display: block
+      position: absolute
+      width: 30px
+      height: 4px
+      background-color: #444
+      transition: all 0.3s ease-in-out
+
+    & .bar:before
+      position: absolute
+      content: ''
+      top: 10px
+      left: 0
+
+    & .bar:after
+      position: absolute
+      content: ''
+      top: -10px
+      left: 0
+
+
+  .show
+    & .btnMenu
+      & .bar
+        background-color: transparent
+
+      & .bar:before
+        top: 0
+        transform: rotate(45deg)
+
+
+      & .bar:after
+        top: 0
+        transform: rotate(-45deg)
+
+  .show .branding
+    position              : relative
+    z-index               : 8889
+    transition            : all 0.3s ease-in-out
+  nav
+    width                 : 0
+    height                : 100%
+    overflow              : hidden
+    position              : fixed
+    top                   : 0
+    left                  : 0
+    transition            : width 0.3s ease-in
+    background-color      : #fff
+    z-index               : 8888
+  .show .content
+    opacity: 0
+    transition: opacity 0.3s ease-in-out
+
+  .show nav
+    width: 100%
+    height: 100%
+    positiion: fixed
+
+  nav ul
+    list-style-type: none
+    position: relative
+    top: 90px
+
+    opacity: 0
+    transform: translateX(100px)
+    transition: all 0.3s 0.2s ease-out
+
+  .show nav ul
+    opacity: 1
+    transform: translateX(0)
+  nav ul li
+    width: 100%
+
+  nav a
+    display: block
+    width: auto
+    line-height: 42px
+    font-size: 1.15em
+    margin: 0
+    text-decoration: none
+    color: black
+    font-family: Arial, Helvetica, sans-serif
