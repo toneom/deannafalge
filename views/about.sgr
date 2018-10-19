@@ -15,7 +15,7 @@ extends(src='layout.sgr')
 
     h2 About Deanna
     div(class='imageTextLtr topGutter')
-      img(src='/img/deanna-scenery.jpg' )
+      img(src='/img/deanna-falge-thrive-empower.png' )
       div(class='container ')
         p Deanna’s life mission is to inspire and empower youth. She highly values and appreciates the deep connections she develops with each of her students.
 

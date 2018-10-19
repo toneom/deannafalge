@@ -5,6 +5,11 @@ extends(src='layout.sgr')
   block(name='content')
     img(src='/img/girl-tree-reading-1200x511.jpg' class='headerBanner' alt='girl sitting under a tree reeding')
     h2 Contact Thrive
+    p
+      span Phone:
+      a(href="tel:831.234.1824") 831.234.1824
+      span - Email:
+      a(href="mailto:deanna.falge@gmail.com") deanna.falge@gmail.com
     form(name="contact" action="contact-success.html" method="post" netlify)
       p
         label Student Name
