@@ -4,7 +4,7 @@ extends(src='layout.sgr')
 
 
   block(name='content')
-    img(src='/img/boy-rock-forest-1200x510.jpg' class='headerBanner')
+    img(src='/img/boy-rock-forest-1200x510.jpg' class='headerBanner' alt='boy sitting on a rock in the forest')
     h2 About the Program
 
     p(class='centered') Thrive believes that every person has unique, important gifts to offer themselves and the world. Thrive helps teens realize, appreciate, and apply their gifts. When utilizing their gifts to make the world a better place, teens are empowered.
@@ -14,7 +14,7 @@ extends(src='layout.sgr')
     p(class='centered') Instructor Deanna Falge meets with teens 1-on-1 in Santa Cruz County and Los Gatos, California. Sessions take place at a student’s home, coffee shop, library, or park- wherever is convenient for the student.
 
     h2 About Deanna
-    div(class='imageTextLtr')
+    div(class='imageTextLtr topGutter')
       img(src='/img/deanna-scenery.jpg' )
       div(class='container ')
         p Deanna’s life mission is to inspire and empower youth. She highly values and appreciates the deep connections she develops with each of her students.

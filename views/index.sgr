@@ -10,5 +10,5 @@ extends(src='layout.sgr')
     include(src='header.sgr')
 
   block(name='content')
-    img(src='/img/girl-field-sun-1200x511.jpg' class='headerBanner')
+    img(src='/img/girl-field-sun-1200x511.jpg' class='headerBanner' alt='')
     h2 Teen empowerment through 1-on-1 tutoring, academic coaching, and self development in Santa Cruz County and Los Gatos, California

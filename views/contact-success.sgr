@@ -3,6 +3,6 @@ extends(src='layout.sgr')
     title Contact Submission Successful
 
   block(name='content')
-    img(src='/img/girl-tree-reading-1200x511.jpg' class='headerBanner')
+    img(src='/img/girl-tree-reading-1200x511.jpg' class='headerBanner' alt='girl studying under a tree')
     h2 Thank you!
     p We have recieved your message.  Thrive will contact you shortly.

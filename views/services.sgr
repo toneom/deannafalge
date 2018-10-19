@@ -4,7 +4,7 @@ extends(src='layout.sgr')
 
 
   block(name='content')
-    img(src='/img/girl-smile-books-1200x510.jpg' class='headerBanner')
+    img(src='/img/girl-smile-books-1200x510.jpg' class='headerBanner' alt='girl smiling with piles of books')
 
     h2(class='centered') Tutoring
     ul(class='centered')

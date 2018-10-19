@@ -3,7 +3,7 @@ extends(src='layout.sgr')
     title Services
 
   block(name='content')
-    img(src='/img/header-fine-details.png' class='headerBanner')
+    img(src='/img/header-fine-details.png' class='headerBanner' alt='over the shoulder, girl studying')
 
     h2 Location & Timing
 
