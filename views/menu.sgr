@@ -11,4 +11,4 @@ nav
       li
         a(class="{{ pageId === item.slug  ? 'selected' : '' }}" href="/{{ item.slug }}") {{ item.name }}
     li
-      a(href="tel:831.234.1824") 831.234.1874
+      a(href="tel:831.234.1874") 831.234.1874
