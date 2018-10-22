@@ -7,7 +7,7 @@ extends(src='layout.sgr')
     h2 Contact Thrive
     p
       span Phone:
-      a(href="tel:831.234.1824") 831.234.1824
+      a(href="tel:831.234.1874") 831.234.1874
       span - Email:
       a(href="mailto:deanna.falge@gmail.com") deanna.falge@gmail.com
     form(name="contact" action="contact-success.html" method="post" netlify)
