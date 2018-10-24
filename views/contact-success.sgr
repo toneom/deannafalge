@@ -1,6 +1,7 @@
 extends(src='layout.sgr')
   block(name='title')
-    title Contact Submission Successful
+    title Contact Success - Contact Submission Successful | Thrive
+    meta(name='description' content='Thank you! We have recieved your message.  Thrive will contact you shortly')
 
   block(name='content')
     img(src='/img/girl-tree-reading-1200x511.jpg' class='headerBanner' alt='girl studying under a tree')

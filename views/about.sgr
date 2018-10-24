@@ -1,6 +1,7 @@
 extends(src='layout.sgr')
   block(name='title')
-    title About Thrive
+    title About | Thrive
+    meta(name='description' content='Thrive believes that every person has unique, important gifts to offer themselves and the world. Thrive helps teens realize, appreciate, and apply their gifts. When utilizing their gifts to make the world a better place, teens are empowered.')
 
 
   block(name='content')
