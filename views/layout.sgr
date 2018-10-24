@@ -14,8 +14,9 @@ html
 
 
     block(name='title')
-      title Tutoring, Academic Coaching and Self Development in Santa Cruz and Los Gatos, California | Thrive
       meta(name='description' content='Teen empowerment through 1-on-1 tutoring, academic coaching, and self development in Santa Cruz County and Los Gatos, California')
+      title Tutoring, Academic Coaching and Self Development in Santa Cruz and Los Gatos, California | Thrive
+
 
     link(rel='stylesheet' href='css/index.css')
 

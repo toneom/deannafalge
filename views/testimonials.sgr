@@ -1,7 +1,8 @@
 extends(src='layout.sgr')
   block(name='title')
-    title Testimonials
     meta(name='description' content='See what clients are saying about Thrive')
+    title Testimonials
+
   block(name='content')
     img(src='/img/silouette-splashing-sun.jpg' class='headerBanner' alt='boy silouttes on the beach jumping')
     div

@@ -1,7 +1,7 @@
 extends(src='layout.sgr')
   block(name='title')
-    title Fine Details | Thrive
     meta(name='description' content='Detailed information about Thrive services including Location & Timing, Students with Special Needs, Billing and Cancellations.')
+    title Fine Details | Thrive
 
   block(name='content')
     img(src='/img/header-fine-details.png' class='headerBanner' alt='over the shoulder, girl studying')

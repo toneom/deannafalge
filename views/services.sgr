@@ -1,7 +1,7 @@
 extends(src='layout.sgr')
   block(name='title')
-    title Services | Thrive
     meta(name='description' content='Services offered in Tutoring, Academic Coaching and Self Development.')
+    title Services | Thrive
 
   block(name='content')
     img(src='/img/girl-smile-books-1200x510.jpg' class='headerBanner' alt='girl smiling with piles of books')

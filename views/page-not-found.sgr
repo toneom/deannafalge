@@ -1,7 +1,7 @@
 extends(src='layout.sgr')
   block(name='title')
-    title Page Not Found | Thrive
     meta(name='description' content='We were unable to find the page you visited.  Please see the above links to find what you are looking for.')
+    title Page Not Found | Thrive
 
   block(name='content')
     h2 Page Not Found
