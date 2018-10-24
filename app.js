@@ -8,7 +8,6 @@ const sugarss = require('sugarss')
 const lost = require('lost')
 const env = process.env.SPIKE_ENV
 
-
 css = cssStandards({
   parser: sugarss,
   minify: env === 'production',
@@ -16,8 +15,8 @@ css = cssStandards({
 })
 css.plugins.push(lost())
 
-let rawdata = fs.readFileSync('./assets/json/navigation.json');  
-const navigationObject = JSON.parse(rawdata); 
+let rawdata = fs.readFileSync('./assets/json/navigation.json');
+const navigationObject = JSON.parse(rawdata);
 console.log(navigationObject);
 module.exports = {
   devtool: 'source-map',
@@ -29,5 +28,5 @@ module.exports = {
     minify: env === 'production'
   }),
   postcss: css,
-  babel: jsStandards()
+  babel: jsStandards({})
 }
