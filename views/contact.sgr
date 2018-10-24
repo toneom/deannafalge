@@ -14,16 +14,16 @@ extends(src='layout.sgr')
     form(name="contact" action="contact-success.html" method="post" netlify)
       p
         label Student Name
-        input(type="text" name="name")
+        input(type="text" name="name" required)
       p
         label Parent Name(s)
-        input(type="text" name="parentNames")
+        input(type="text" name="parentNames" required)
       p
         label Parent Email
-        input(type="email" name="email")
+        input(type="email" name="email" required)
       p
         label Parent Phone #
-        input(type="text" name="parentPhone")
+        input(type="text" name="parentPhone" required)
       p
         label  Location
         input(type="text" name="location")
@@ -35,13 +35,13 @@ extends(src='layout.sgr')
         input(type="text" name="school")
       p
         label Intentions & Goals
-        textarea( name="intentionGoals")
+        textarea( name="intentionGoals" required)
       p
         label Any other important information about your child
         textarea(type="text" name="otherInfo")
       p
         label Availability
-        textarea(type="text" name="availability")
+        textarea(type="text" name="availability" required)
       p
         label How did you hear about Thrive?
         textarea(type="text" name="howHearAboutThrive")
