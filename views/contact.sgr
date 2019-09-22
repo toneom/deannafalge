@@ -6,6 +6,7 @@ extends(src='layout.sgr')
   block(name='content')
     img(src='/img/girl-tree-reading-1200x511.jpg' class='headerBanner' alt='girl sitting under a tree reeding')
     h2 Contact Thrive
+    p Thank you for your interest in Thrive! Deanna is currently studying Rite of Passage programs for teens at Thrive, and will be out of service from 9/22-10/4. She will reply to your message upon her return.
     p
       span Phone:
       a(href="tel:831.234.1874") 831.234.1874

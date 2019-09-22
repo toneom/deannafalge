@@ -6,4 +6,4 @@ extends(src='layout.sgr')
   block(name='content')
     img(src='/img/girl-tree-reading-1200x511.jpg' class='headerBanner' alt='girl studying under a tree')
     h2 Thank you!
-    p We have recieved your message.  Thrive will contact you shortly.
+    p We have recieved your message. Thank you for your interest in Thrive! Deanna is currently studying Rite of Passage programs for teens at Thrive, and will be out of service from 9/22-10/4. She will reply to your message upon her return.
