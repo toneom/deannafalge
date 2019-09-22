@@ -8,16 +8,18 @@ extends(src='layout.sgr')
     img(src='/img/boy-rock-forest-1200x510.jpg' class='headerBanner' alt='boy sitting on a rock in the forest')
     h2 About the Program
 
-    p(class='centered') We know that every person has unique, important gifts to offer themselves and the world. We help teens realize, appreciate, and apply their gifts. When utilizing their gifts to make the world a better place, teens are empowered.
+    p(class='centered') Thrive believes that every person has unique, important gifts to offer themselves and the world. Thrive helps teens realize, appreciate, and apply their gifts. When utilizing their gifts to make the world a better place, teens are empowered.
 
-    p(class='centered') Thrive is different for every teen. Each student is guided through a personalized program that serves their individual needs. We offer tutoring in mathematics, sciences, and humanities, and coaching in all aspects of academia. To balance academics with the rest of teen life, we guide teens in self development practices, including stress reduction and prevention, social media management, mindfulness, healthy communication, life path and career exploration, and environmental awareness and appreciation.
+    p(class='centered') Thrive is different for every teen. Tutoring, academic coaching, and self development are the main areas of focus, but the program is shaped around each student’s individual needs and dreams. While one person may want to strengthen organizational skills and study habits, another may want to build self-confidence and public speaking abilities. The program always depends on the individual.
 
-    p(class='centered') Our mentors meet with teens 1-on-1 in Santa Cruz County and Los Gatos, California. Sessions take place at a student's home, coffee shop, library, or in nature- wherever is best for the student.
+    p(class='centered') Instructor Deanna Falge meets with teens 1-on-1 in Santa Cruz County and Los Gatos, California. Sessions take place at a student’s home, coffee shop, library, or park- wherever is convenient for the student.
 
-    h2 About Our Mentors
+    h2 About Deanna
     div(class='imageTextLtr topGutter')
       img(src='/img/deanna-falge-thrive-empower.png' )
       div(class='container ')
-        p Founder and Lead Mentor, Deanna Falge, started Thrive out of her love for connecting with youth. Deanna earned a degree in Biological Psychology from the University of California, Santa Barbara, and has years of teaching and mentoring experience in academia, outdoor education, and personal development. She is currently earning her Certificate in Ecotherapy from the Earthbody Institute, and her Nature-Connected Life Coaching Certificate from the Earth Based Institute. By combining her knowledge in Psychology, academics, and nature with her passion for serving youth, Deanna designs whole-hearted programs for every Thrive teen.
+        p Deanna’s life mission is to inspire and empower youth. She highly values and appreciates the deep connections she develops with each of her students.
 
-    h2 Other Mentor Bios Coming Soon!
+        p Deanna has been engaged in many roles throughout her life: outdoor educator, tutor, college teaching assistant, academic coach, substitute teacher, dance instructor, youth mentor, research technician, animal trainer, youth camp instructor, performer, and student. In Thrive, Deanna combines her degree in Biological Psychology and years of teaching experience with her deep passion for serving youth.
+
+        p When she is not meeting with her students or guiding groups of children in nature, Deanna is probably surfing, dancing, playing music, rock climbing, hiking, gardening, creating art, meditating, or spending quality time with her friends and family.
