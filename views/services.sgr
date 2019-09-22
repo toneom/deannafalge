@@ -8,10 +8,10 @@ extends(src='layout.sgr')
 
     h2(class='centered') Tutoring
     ul(class='centered')
-      li Math: Pre-algebra, Algebra I/II, Pre-Calculus, Trigonometry
-      li Science: Biology, Chemistry
-      li Humanities: Reading Comprehension, Essays, Creative Writing, Public Speaking
-      li Spanish: Spanish I
+      li Math: Pre-algebra, Algebra I/II, Pre-Calculus, Trigonometry, Calculus AB/BC
+      li Science: Biology, Chemistry, Physics, Environmental Science, AP Sciences
+      li Humanities: Reading Comprehension, Essays, Creative Writing, Public Speaking, History, English, AP Humanities
+      li Spanish: All Spanish courses
 
     h2(class='centered') Academic Coaching
     ul(class='centered')
