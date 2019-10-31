@@ -11,7 +11,6 @@ extends(src='layout.sgr')
       a(href="tel:831.234.1874") 831.234.1874
       span - Email:
       a(href="mailto:deanna.falge@gmail.com") deanna.falge@gmail.com
-      p Thank you for your interest in Thrive! Deanna is currently studying Rite of Passage programs for teens at Thrive, and will be out of service from 9/22-10/4. She will reply to your message upon her return.
     form(name="contact" action="contact-success.html" method="post" netlify)
       p
         label Student Name
