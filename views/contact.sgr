@@ -4,7 +4,7 @@ extends(src='layout.sgr')
     title Contact | Thrive
 
   block(name='content')
-    img(src='/img/girl-tree-reading-1200x511.jpg' class='headerBanner' alt='girl sitting under a tree reeding')
+    img(src='/img/deanna-sunlit-lake.jpg' class='headerBanner' alt='girl sitting under a tree reeding')
     h2 Contact Thrive
     p
       span Phone:

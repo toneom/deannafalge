@@ -1,0 +1,65 @@
+extends(src='layout.sgr')
+  block(name='title')
+    meta(name='description' content='Services offered in Tutoring, Academic Coaching and Self Development.')
+    title Offerings | Thrive
+
+  block(name='content')
+    img(src='/img/girl-laying-on-grass-1200x511.jpg' class='headerBanner' alt='girl smiling with piles of books')
+
+    h2(class='centered') Nature-Connected Life Coaching & Mentoring
+    p
+      | Through 1-on-1 Nature-Connected Life Coaching & Mentoring, we guide teens and young
+      | adults into an authentic, loving, and purposeful connection with their self, community,
+      | nature, and life path. With nature as our co-guide, we combine philosophies and methods in
+      | ecotherapy, gestalt therapy, life coaching, outdoor education, coyote mentoring, 8 shields
+      | philosophy, the four-shields model, non-violent communication, neuroscience, biological
+      | psychology, and ecopsychology. In this work, we help people:
+
+    ul(class='centered')
+      li Cultivate Self-Love & Compassion
+      li Connect with Gifts & Life Purpose
+      li Build Deep Listening Skills
+      li Communicate Mindfully
+      li Develop a Strong Sense of Self
+      li Raise Self Confidence & Esteem
+      li Develop Positive Body Image
+      li Grow a Deep Relationship with Nature
+      li Increase Mindfulness & Compassion for Others
+      li Inspire, Set, & Actualize Intentions & Goals
+      li Heal & Prevent Stress & Anxiety
+      li Nurture Healthy Technology Use
+      li Heal & Process Climate Grief
+      li Lead a Balanced Lifestyle
+      li Become True Leaders
+
+
+    h2(class='centered') Holistic Tutoring
+    p
+      | In holistic tutoring, we help students develop a core understanding of the academic
+      br
+      | material as well as build confidence, maintain a healthy school/life balance, reduce and
+      br
+      | prevent stress, and cultivate mindfulness. We offer holistic tutoring in the following
+      br
+      | subjects:
+
+    ul(class='centered')
+      li Math: Pre-algebra, Algebra I/II, Pre-Calculus, Trigonometry, Calculus AB/BC
+      li Science: Biology, Chemistry, Physics, Environmental Science, AP Sciences
+      li Humanities: Reading Comprehension, Essays, Creative Writing, Public Speaking, History, English, AP Humanities
+      li Spanish: All Spanish courses
+
+    h2(class='centered') Academic Coaching
+    ul(class='centered')
+      li Homework Management
+      li Note Taking Skills
+      li Test Preparation
+      li Study Strategies
+      li Planning Ahead
+      li Organization
+      li Execution and Completion of Projects
+      li Academic Independence
+      li Executive Functioning Skills
+      li Post-High School & College Advising
+      li College App Essays
+      li Resume and Cover Letters

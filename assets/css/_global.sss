@@ -119,7 +119,8 @@ main
           /* color: #d7df21 */
           color: var(--color1 )
 
-div.imageTextLtr
+
+div.imageTextStacked
   position    : relative
   overflow    : hidden
 
@@ -144,11 +145,14 @@ hr
   margin                  : 0 1em
 
 
-#testimonials div.imageTextLtr
+#testimonials div.testimonial
+  position    : relative
+  overflow    : hidden
   margin-top             : var(--gutterTop)
   padding-bottom         : var(--gutter)
 
-
+  & .container
+    display     : block
   &:last-child
     border-bottom         : none
     margin-bottom         : 0
@@ -187,7 +191,7 @@ div.branding
 
   & img
     display   : inline-block
-    width     : 100px
+    width     : 250px
 
   & div.container
     display           : inline-block
@@ -306,3 +310,5 @@ form
 
       opacity         : .8
       border-bottom   : 1px solid #000
+  & .inputNote
+    font-size: .8em

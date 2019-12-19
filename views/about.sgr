@@ -6,18 +6,37 @@ extends(src='layout.sgr')
 
   block(name='content')
     img(src='/img/boy-rock-forest-1200x510.jpg' class='headerBanner' alt='boy sitting on a rock in the forest')
-    h2 About the Program
+    h2 About Thrive Young Leaders
+    p.
+      We all have unique, important gifts to offer ourselves and the world. For the wellbeing and survival of our communities, it is necessary that we each realize and share our true gifts. At Thrive Young Leaders, we help teens and young adults overcome internal barriers and guide them into deeper connection with their gifts, life purpose, and inner knowing. By connecting with our gifts and living a purpose-directed life, we become empowered leaders of our own lives, and true leaders for Earth and all inhabiting communities.
 
-    p(class='centered') We know that every person has unique, important gifts to offer themselves and the world. We help teens realize, appreciate, and apply their gifts. When utilizing their gifts to make the world a better place, teens are empowered.
+    p.
+      As a small group of passionate guides, mentors, tutors, teachers, and coaches, we connect teens and young adults to their self, community, and nature through 1-on-1 Nature-Connected Life Coaching, mentoring, holistic tutoring, academic coaching, events, group workshops, and retreats. We are trained in a variety of philosophies and disciplines, including ecopsychology, biological psychology, life-coaching, tutoring, ecotherapy, mindfulness, non-violent communication, physics, neuroscience, environmental science, leadership, outdoor education, coyote mentoring, the four shields model, ancestral skills, wilderness survival skills, and rite of passage.
+    p.
+      Above all, we are in love with Earth and humanity, and we are dedicated to the health, well-being, and sustainability of our present and future planet.
 
-    p(class='centered') Thrive is different for every teen. Each student is guided through a personalized program that serves their individual needs. We offer tutoring in mathematics, sciences, and humanities, and coaching in all aspects of academia. To balance academics with the rest of teen life, we guide teens in self development practices, including stress reduction and prevention, social media management, mindfulness, healthy communication, life path and career exploration, and environmental awareness and appreciation.
-
-    p(class='centered') Our mentors meet with teens 1-on-1 in Santa Cruz County and Los Gatos, California. Sessions take place at a student's home, coffee shop, library, or in nature- wherever is best for the student.
-
-    h2 About Our Mentors
+    h2 About Our Guides
+    br
+    br
     div(class='imageTextLtr topGutter')
       img(src='/img/deanna-falge-thrive-empower.png' )
       div(class='container ')
-        p Founder and Lead Mentor, Deanna Falge, started Thrive out of her love for connecting with youth. Deanna earned a degree in Biological Psychology from the University of California, Santa Barbara, and has years of teaching and mentoring experience in academia, outdoor education, and personal development. She is currently earning her Certificate in Ecotherapy from the Earthbody Institute, and her Nature-Connected Life Coaching Certificate from the Earth Based Institute. By combining her knowledge in Psychology, academics, and nature with her passion for serving youth, Deanna designs whole-hearted programs for every Thrive teen.
+        h2 Deanna Falge
+        h3 Founder, Director, Nature-Connected Life Coach, Mentor, Academic Guide
+        p.
+         Deanna founded Thrive out of her love for connecting with youth. Today, Deanna’s passion and life mission is to help heal Earth and humanity by empowering and guiding Earth’s young leaders into deeper connection with nature, community, and self.
+         Deanna has experience and formal education in psychology, ecotherapy, biological psychology, outdoor education, life coaching, mentoring, tutoring, academic coaching, scientific research, ancestral skills and history, wilderness survival skills, leadership, soul exploration, mindfulness, nonviolent communication, rite of passage, and nature connection. She earned a degree in Biological Psychology from UC Santa Barbara, and has years of teaching, coaching, tutoring, and mentoring experience. Deanna received her Certificate in Ecotherapy from the Earth Body Institute, and is currently earning her Nature-Connected Life Coaching Certification through a year-long intensive program at the Earth Based Institute. By combining her knowledge and experience with her deep compassion and passion for serving Earth and humanity, Deanna designs whole-hearted, transformational programs for every teen and young adult at Thrive.
+         Besides her work at Thrive, Deanna also loves dancing, surfing, diving, traveling, playing music, hiking, exploring, learning, listening to nature, deep conversation, gardening, bonfires, ceremony, good food, and spending quality time with friends and family.
 
-    h2 Other Mentor Bios Coming Soon!
+    div(class='imageTextLtr topGutter')
+      img(src='/img/elizabeth-beach.jpg' )
+      div(class='container ')
+        h2 Elizabeth Patron
+        h3 Tutor & Academic Coach
+        p Elizabeth graduated from CSU Monterey Bay with a BS degree in Environmental Science Technology and Policy, and has worked for several non-profits and environmental agencies focused on ocean and environmental conservation. In addition to pursuing a PhD in Oceanography and Atmospheric Science, Elizabeth loves to teach and mentor youth. When she isn’t tutoring, coaching, or aiding in water quality research at Cabrillo College, you may find Elizabeth surfing and ripping waves across Monterey and Santa Cruz County.
+    div(class='imageTextLtr topGutter')
+      img(src='/img/rylan-backpack.jpg' )
+      div(class='container ')
+        h2 Rylan Hunt
+        h3 Tutor & Academic Coach
+        p Rylan grew up in Santa Cruz and earned a BS degree in Physics at UC Berkeley. He has been tutoring and coaching students for many years, and especially loves to tutor AP Physics and math. When he isn’t tutoring, Rylan loves to travel the world, surf big waves, and forage for exotic mushrooms.

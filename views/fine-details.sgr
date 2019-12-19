@@ -8,16 +8,23 @@ extends(src='layout.sgr')
 
     h2 Location & Timing
 
-    p(class='centered') Sessions are primarily located in Santa Cruz County and Los Gatos, and are held in the student’s home, coffee shops, libraries, or parks. Deanna travels to wherever is most convenient for the student.  Sessions are usually 1-2 hours and may occur 1-3 days per week.
-
-    h2 Students with Special Needs
-
-    p(class='centered') Deanna is experienced in working with students who have executive functioning difficulties. She has worked with people diagnosed with ADHD and Autism.  Deanna believes that students with special needs have incredible gifts to share with the world, and she loves to help them shine.
+    p(class='centered')
+     | Nature-Connected Life Coaching & Mentoring sessions are offered at local urban and wilderness parks in the Santa Cruz and Los Gatos areas, online, or by phone. If weather does not permit for outdoor sessions, we offer coaching sessions at client’s homes or in reserved office spaces. Tutoring and Academic Coaching sessions are offered at student homes, libraries, coffee shops, local urban parks, or online (wherever is most convenient for the student).
+     br
+     | Sessions are typically 1-2 hours and may occur 1-3 days per week.
 
     h2 Billing
 
-    p(class='centered') Payment is accepted at the time of each session. If parents would like to pay for multiple sessions in advance, a payment plan can be set-up with Deanna. Please contact Deanna for more information.
+    p(class='centered') We accept payment in advance or at the time of each session. Payment can be made through Venmo, PayPal, check, or cash. Our pricing is sliding scale, and depends on the type of service that we offer. For more information, please contact us through our contact form or by phone, 831-234-1874.
+
+    h2 Scholarships
+
+    p(class='centered') Scholarships are offered to those who apply with a strong desire and need for coaching, guidance, mentorship, and support. A scholarship essay and interview are required. Please contact us for more information.
 
     h2 Cancellations
 
-    p(class='centered') Sessions may be cancelled up to 48-hours in advance without charge. Fewer than 48-hours notice will result in full charge for the session or a make-up session another day of the week.  If a student must cancel the session due to being sick, a make-up session can be scheduled for sometime during the month.  Cancellations made with fewer than 3-hours notice due to sickness will be charged in full.  To cancel, contact Deanna by email or phone (preferred).  If a student misses a session without notice or is more than 20min late, the session would count as a “no show” would be charged in full.
+    p(class='centered') Cancellations made with more than 48-hours notice will not be charged unless the client has pre-paid for a Nature-Connected Life Coaching package. If a client has paid for a package, they may choose to make-up the session within one month or be charged for the session. Fewer than 48-hours notice will result in full charge for the session or a make-up session another day of the month. If a client must cancel the session due to being sick, a make-up session can be scheduled for sometime during the month. Cancellations made with fewer than 3-hours notice due to sickness will be charged in full. If a client misses a session without notice or is more than 20min late, the session will count as a ”no show” and will be charged in full.
+
+    h2 Students with Special Needs
+
+    p(class='centered') We are experienced in working with students and clients who have executive functioning difficulties, ADHD, and Autism. We know that students with special needs have incredible gifts to share with the world, and we love to help them thrive.

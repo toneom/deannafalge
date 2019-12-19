@@ -1,6 +1,6 @@
 ul(class="subheader horizontalBullet")
+  li Life Coaching
+  li Mentoring
   li Tutoring
-  li Academic Coaching
-  li Self Development
 
 include(src='menu.sgr')

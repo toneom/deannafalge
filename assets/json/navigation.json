@@ -1,5 +1,5 @@
 { "data":[
-    {"name":"Services"      , "slug":"services"},
+    {"name":"Offerings"      , "slug":"offerings"},
     {"name":"About"         , "slug":"about"},
     {"name":"Testimonials"  , "slug": "testimonials"},
     {"name":"Fine Details"  , "slug": "fine-details"},

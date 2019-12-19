@@ -15,7 +15,7 @@ html
 
     block(name='title')
       meta(name='description' content='Teen empowerment through 1-on-1 tutoring, academic coaching, and self development in Santa Cruz County and Los Gatos, California')
-      title Tutoring, Academic Coaching and Self Development in Santa Cruz and Los Gatos, California | Thrive
+      title Life Coaching, Mentoring and Tutoring in Santa Cruz and Los Gatos, California | Thrive
 
 
     link(rel='stylesheet' href='css/index.css')
@@ -25,10 +25,7 @@ html
       block(name='header')
         div(class='header')
           div(class='branding')
-            img(src='/img/global-logo.png' alt='' )
-            div(class='container')
-              span(class="title") Thrive
-              span(class="tagline") empowering teens
+            img(src='/img/global-logo.jpg' alt='' )
 
           include(src='header.sgr')
       section(id='content')
