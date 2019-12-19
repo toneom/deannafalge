@@ -1,49 +1,50 @@
 extends(src='layout.sgr')
   block(name='title')
     meta(name='description' content='Enroll your child in our Tutoring, Academic Coaching and Self Development services')
-    title Contact | Thrive
+    title Contact Us
 
   block(name='content')
     img(src='/img/deanna-sunlit-lake.jpg' class='headerBanner' alt='girl sitting under a tree reeding')
-    h2 Contact Thrive
+    h2 Contact Us
     p
       span Phone:
       a(href="tel:831.234.1874") 831.234.1874
-      span - Email:
-      a(href="mailto:deanna.falge@gmail.com") deanna.falge@gmail.com
+
     form(name="contact" action="contact-success.html" method="post" netlify)
       p
-        label Student Name
+        label Full Name(s)
         input(type="text" name="name" required)
+        span(class='inputNote') If you are a parent or guardian, please include your name and your teen’s name
       p
-        label Parent Name(s)
-        input(type="text" name="parentNames" required)
+        label Pronouns
+        input(type="text" name="pronouns" required)
+        span(class='inputNote') (i.e. he/him, she/her, they/them)
       p
-        label Parent Email
-        input(type="email" name="email" required)
+        label Phone Number(s)
+        input(type="text" name="phones" required)
       p
-        label Parent Phone #
-        input(type="text" name="parentPhone" required)
+        label Email(s)
+        input(type="text" name="emails" required)
       p
-        label  Location
+        label  Age
+        input(type="text" name="age")
+      p
+        label Location
         input(type="text" name="location")
       p
-        label Grade Level
-        input(type="text" name="gradeLevel")
+        label What type of guidance are you seeking?
+        textarea( name="guidance" required)
       p
-        label School
-        input(type="text" name="school")
+        label What are your intentions & goals?
+        textarea(type="text" name="intentionsGoals")
       p
-        label Intentions & Goals
-        textarea( name="intentionGoals" required)
-      p
-        label Any other important information about your child
-        textarea(type="text" name="otherInfo")
-      p
-        label Availability
+        label What is your availability?
         textarea(type="text" name="availability" required)
       p
-        label How did you hear about Thrive?
+        label How did you hear about Us?
         textarea(type="text" name="howHearAboutThrive")
+      p
+        label Any other important information?
+        textarea(type="text" name="otherInfo")
       p
         button(type="submit") Send
