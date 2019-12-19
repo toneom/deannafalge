@@ -18,7 +18,7 @@ extends(src='layout.sgr')
     h2 About Our Guides
     br
     br
-    div(class='imageTextLtr topGutter')
+    div(class='imageTextStacked topGutter')
       img(src='/img/deanna-falge-thrive-empower.png' )
       div(class='container ')
         h2 Deanna Falge
@@ -28,13 +28,13 @@ extends(src='layout.sgr')
          Deanna has experience and formal education in psychology, ecotherapy, biological psychology, outdoor education, life coaching, mentoring, tutoring, academic coaching, scientific research, ancestral skills and history, wilderness survival skills, leadership, soul exploration, mindfulness, nonviolent communication, rite of passage, and nature connection. She earned a degree in Biological Psychology from UC Santa Barbara, and has years of teaching, coaching, tutoring, and mentoring experience. Deanna received her Certificate in Ecotherapy from the Earth Body Institute, and is currently earning her Nature-Connected Life Coaching Certification through a year-long intensive program at the Earth Based Institute. By combining her knowledge and experience with her deep compassion and passion for serving Earth and humanity, Deanna designs whole-hearted, transformational programs for every teen and young adult at Thrive.
          Besides her work at Thrive, Deanna also loves dancing, surfing, diving, traveling, playing music, hiking, exploring, learning, listening to nature, deep conversation, gardening, bonfires, ceremony, good food, and spending quality time with friends and family.
 
-    div(class='imageTextLtr topGutter')
+    div(class='imageTextStacked topGutter')
       img(src='/img/elizabeth-beach.jpg' )
       div(class='container ')
         h2 Elizabeth Patron
         h3 Tutor & Academic Coach
         p Elizabeth graduated from CSU Monterey Bay with a BS degree in Environmental Science Technology and Policy, and has worked for several non-profits and environmental agencies focused on ocean and environmental conservation. In addition to pursuing a PhD in Oceanography and Atmospheric Science, Elizabeth loves to teach and mentor youth. When she isn’t tutoring, coaching, or aiding in water quality research at Cabrillo College, you may find Elizabeth surfing and ripping waves across Monterey and Santa Cruz County.
-    div(class='imageTextLtr topGutter')
+    div(class='imageTextStacked topGutter')
       img(src='/img/rylan-backpack.jpg' )
       div(class='container ')
         h2 Rylan Hunt
