@@ -4,7 +4,7 @@ extends(src='layout.sgr')
     title Testimonials
 
   block(name='content')
-    img(src='/img/silouette-splashing-sun.jpg' class='headerBanner' alt='boy silouttes on the beach jumping')
+    img(src='/img/friends-group-1200x510.jpg' class='headerBanner' alt='boy silouttes on the beach jumping')
     div
       div(class='testimonial topGutter')
         p I have so much gratitude for Deanna. She has made a huge impact on my life. Deanna empowered me to become a confident person and appreciate/respect every aspect of myself, whether it is something I can control or not. Thank you Deanna for being there for me and hearing me out when I really needed someone to listen. Thank you helping me figure things out both by myself and with your guidance. It meant the world to me.

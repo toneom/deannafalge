@@ -14,20 +14,36 @@
   width: 100%
 
 body
-  padding     : 0
-  font-family : 'opensans'
+  padding       : 0
+  font-family   : 'opensans'
+  & p
+    font-size   : 1.1em
+  & a
+    color           : var(--linkColor)
+    text-decoration : none
+    &:hover
+      color : var(--linkColorHover)
 
   @media (min-width: 800px )
     padding     : 0px 50px
   & p, & #content li
     font-family: 'opensans'
 
-
   & p, & li
     line-height : var(--linespaceMobile)
-
     @media (min-width: 800px )
       line-height : var(--linespace)
+  & section.intro
+    & p
+      @media (min-width: 800px )
+        /*line-height : var(--linespaceHomeIntro)*/
+.size-large
+  font-size : 1.4em
+.size-medium
+  font-size : 1.4em
+
+.italic
+  font-style: italic
 
 .centered
   text-align: center
@@ -120,27 +136,43 @@ main
           color: var(--color1 )
 
 
-div.imageTextStacked
-  position    : relative
-  overflow    : hidden
-
-  & img
+div.imageText
+  position        : relative
+  overflow        : hidden
+  vertical-align  : top
+  & a
+    text-decoration : none
+    color : var(--bodyTextColor )
+  &.stacked
     display       : block
-    width         : 50%
-    padding       : 0em 1em 0em 1em
-    margin        : auto
-    border-radius : 100%
-    @media (min-width: 768px )
-      width   : 30%
+    & img
+      width         : 50%
+      padding       : 0em 1em 0em 1em
+      margin        : auto
+      border-radius : 100%
+      @media (min-width: 768px )
+        width   : 30%
 
+  &.inline
+    display       : block
+    @media (min-width: 768px )
+      display       : inline-block
+    & img
+      width         : 60%
+      padding       : 0em 1em 0em 1em
+      margin        : auto
+      border-radius : 100%
+      @media (min-width: 768px )
+        width       : 70%
+  &.col3
+    width         : 30%
   & .container
     display     : block
-
 hr
   display: block
   height: 1px
   border: 0
-  border-top: 1px solid var(--color3)
+  border-top: 1px solid var(--color1)
   padding: 0
   margin                  : 0 1em
 

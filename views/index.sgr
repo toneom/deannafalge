@@ -8,19 +8,68 @@ extends(src='layout.sgr')
 
   block(name='content')
     img(src='/img/girl-field-sun-1200x511.jpg' class='headerBanner' alt='')
-    p
-     | We guide teens and young adults into a deeper connection with
-     br
-     | self, nature, and community through
-     br
-     | Nature-Connected Life Coaching,
-     br
-     | Mentoring,
-     br
-     | Holistic Tutoring,
-     br
-     | Academic Coaching,
-     br
-     | Workshops & Retreats
-     br
-     | in Santa Cruz and Los Gatos counties, California
+    section(class="intro")
+      p
+        | Thrive Young Leaders empowers teens and young adults to become true leaders of
+        br
+        | their own lives, environment, and community.
+      p
+        | We offer
+        b  Nature-Connected Life Coaching, Mentoring, Holistic Tutoring,
+        br
+        b Academic Coaching, Workshops & Retreats
+        |  in Santa Cruz and Los Gatos,
+        br
+        | California, & Online.
+
+    hr
+    div(class='testimonial topGutter size-large italic')
+     p
+      | "I have so much gratitude for Deanna. She has made a huge
+      br
+      | impact on my life. Deanna empowered me to become a confident
+      br
+      | person and appreciate/respect every aspect of myself"
+     p(class="author") -Charlie, Student, Santa Cruz
+    hr
+
+    h2 About Our Guides
+
+    div(class='imageText inline topGutter col3')
+     a(href="/about#deanna-falge")
+      img(src='/img/deanna-falge-thrive-empower.png' )
+     div(class='container ')
+       h2
+         a(href="/about#deanna-falge") Deanna Falge
+       h3
+         a(href="/about#deanna-falge") Founder, Director, Life Coach, Mentor
+
+    div(class='imageText inline topGutter col3')
+     a(href="/about#elizabeth-patron")
+      img(src='/img/elizabeth-beach.jpg' )
+     div(class='container ')
+       h2
+        a(href="/about#elizabeth-patron") Elizabeth Patron
+       h3
+        a(href="/about#elizabeth-patron") Tutor & Academic Coach
+
+    div(class='imageText inline topGutter col3')
+      a(href="/about#rylan-hunt")
+       img(src='/img/rylan-backpack.jpg' )
+      div(class='container ')
+        h2
+          a(href="/about#rylan-hunt") Rylan Hunt
+        h3
+          a(href="/about#rylan-hunt") Tutor & Academic Coach
+
+    p(class='size-medium')
+     | Ready to learn more about our coaching, mentoring, and guidance work for teens and young adults? Check out our
+     |
+     a(href='/about') About
+     |  page,
+     |
+     a(href='/offerings') Offerings
+     |  page, or
+     |
+     a(href='/contact') Contact
+     |  us!
