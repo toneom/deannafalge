@@ -33,7 +33,7 @@ extends(src='layout.sgr')
      p(class="author") -Charlie, Student, Santa Cruz
     hr
 
-    h2 About Our Guides
+    h2 Meet Our Guides
 
     div(class='imageText inline topGutter col3')
      a(href="/about#deanna-falge")
