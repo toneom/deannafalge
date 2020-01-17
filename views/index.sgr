@@ -23,12 +23,10 @@ extends(src='layout.sgr')
         | California, & Online.
 
     hr
-    div(class='testimonial topGutter size-large italic')
+    div(class='home testimonial topGutter size-large italic')
      p
       | "I have so much gratitude for Deanna. She has made a huge
-      br
       | impact on my life. Deanna empowered me to become a confident
-      br
       | person and appreciate/respect every aspect of myself"
      p(class="author") -Charlie, Student, Santa Cruz
     hr

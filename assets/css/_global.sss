@@ -85,7 +85,11 @@ main
       font-size       :  1em
       @media(min-width: 440px )
         font-size     : 1.5em
-
+    & .testimonial
+      & p
+        @media(min-width: 1000px )
+          width         : 60%
+          margin        : 1em auto
   & nav
     font-size          : 1.2em
 
@@ -140,11 +144,16 @@ div.imageText
   position        : relative
   overflow        : hidden
   vertical-align  : top
+
   & a
     text-decoration : none
     color : var(--bodyTextColor )
+    &:hover
+      opacity     : .9
+
   &.stacked
     display       : block
+    margin        : auto
     & img
       width         : 50%
       padding       : 0em 1em 0em 1em
@@ -155,17 +164,25 @@ div.imageText
 
   &.inline
     display       : block
-    @media (min-width: 768px )
+
+    @media (min-width: 1200px )
       display       : inline-block
+
     & img
       width         : 60%
       padding       : 0em 1em 0em 1em
       margin        : auto
       border-radius : 100%
-      @media (min-width: 768px )
-        width       : 70%
+
   &.col3
-    width         : 30%
+    width           : 80%
+    margin        : 2em auto
+    @media (min-width: 800px )
+      width           : 70%
+
+    @media (min-width: 1200px )
+      width           : 30%
+
   & .container
     display     : block
 hr
