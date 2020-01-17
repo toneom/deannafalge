@@ -15,6 +15,7 @@
 
 body
   padding       : 0
+  margin        : 0
   font-family   : 'opensans'
   & p
     font-size   : 1.1em
@@ -24,8 +25,6 @@ body
     &:hover
       color : var(--linkColorHover)
 
-  @media (min-width: 800px )
-    padding     : 0px 50px
   & p, & #content li
     font-family: 'opensans'
 
@@ -34,7 +33,10 @@ body
     @media (min-width: 800px )
       line-height : var(--linespace)
   & section.intro
+    margin-top    : 3em
+    margin-bottom : 3em
     & p
+      margin-bottom : 2em
       @media (min-width: 800px )
         /*line-height : var(--linespaceHomeIntro)*/
 .size-large
@@ -56,17 +58,16 @@ ul.centered
   text-align    : center
   margin-right  : 2em
   font-style    : italic
-
+#content
+  max-width     : 1200px
+  margin        : auto
 main
   position            : relative
   width               : 100%
   margin              : auto
-  max-width           : 1200px
   text-align          : center
   @media (min-width: 1200px )
     font-weight       : normal
-  @media (min-width: 800px)
-    width             : 90%
 
   & p
     margin: 1em .5em
@@ -236,6 +237,9 @@ div.branding
     text-align: center
   @media (min-width: 1350px )
     display: block
+    position : absolute
+    top: 25px
+    left: 5%
     text-align: left
 
   & img
@@ -269,19 +273,31 @@ div.branding
       line-height             : 1em
 
 
-img.headerBanner
-  width: 100%
+.headerBanner
+  height              : 373px
+  vertical-align      : bottom
+  background-repeat   : no-repeat
+  background-position : 50.00% 44.98%
+  background-size     : 100%
+  background-color    : transparent
+  background-size     : cover
 
 ul
 
   &.subheader
     margin-bottom: 0em
-
+    position : absolute
+    width    : 100%
+    top :  150px
+    background-color: none
     & li
       font-size: .78em
       color:    var(--subheaderTextColor)
+      padding-left : 3em
+      color : var(--menuTextColor)
+
       @media (min-width: 460px )
-        font-size: 1.1em
+        font-size : 1.6em
 
   &.contact
     font-size: .8em
@@ -303,17 +319,16 @@ ul
 
         @media (min-width: 660px )
           content : '\00a0\2022\00a0\00a0'
-
+  &.contact
+    background-color  : #f4f2ea
   &.horizontalBullet
     text-align        : center
-    background-color  : #f4f2ea
     padding           : .5em 0
 
     & li
       display : inline-block
 
-    & li:before
-      content : '\00a0\2022\00a0\00a0'
+
 
     & li:first-child:before
       content : ''

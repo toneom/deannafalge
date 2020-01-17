@@ -2,10 +2,10 @@ extends(src='layout.sgr')
   block(name='title')
     meta(name='description' content='Services offered in Tutoring, Academic Coaching and Self Development.')
     title Services | Thrive
-
+  block(name='banner')
+    div(class='headerBanner' style='background-image: url("/img/girl-smile-books-1200x510.jpg") ;')
   block(name='content')
-    img(src='/img/girl-smile-books-1200x510.jpg' class='headerBanner' alt='girl smiling with piles of books')
-
+  
     h2(class='centered') Tutoring
     ul(class='centered')
       li Math: Pre-algebra, Algebra I/II, Pre-Calculus, Trigonometry, Calculus AB/BC

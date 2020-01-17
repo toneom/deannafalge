@@ -3,9 +3,9 @@ extends(src='layout.sgr')
     meta(name='description' content='Thrive believes that every person has unique, important gifts to offer themselves and the world. Thrive helps teens realize, appreciate, and apply their gifts. When utilizing their gifts to make the world a better place, teens are empowered.')
     title About | Thrive
 
-
+  block(name='banner')
+    div(class='headerBanner' style='background-image: url("/img/boy-rock-forest-1200x510.jpg") ;')
   block(name='content')
-    img(src='/img/boy-rock-forest-1200x510.jpg' class='headerBanner' alt='boy sitting on a rock in the forest')
     h2 About Thrive Young Leaders
     p.
       We all have unique, important gifts to offer ourselves and the world. For the wellbeing and survival of our communities,

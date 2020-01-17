@@ -22,6 +22,7 @@ html
 
   body
     main(role='main' id='{{ pageId }}')
+      block(name='banner')
       block(name='header')
         div(class='header')
           div(class='branding')
