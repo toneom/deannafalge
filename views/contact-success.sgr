@@ -3,7 +3,7 @@ extends(src='layout.sgr')
     meta(name='description' content='Thank you! We have recieved your message.  Thrive will contact you shortly')
     title Contact Success - Contact Submission Successful | Thrive
   block(name='banner')
-    div(class='headerBanner' style='background-image: url("/img/girl-tree-reading-1200x511.jpg") ;')
+    div(class='headerBanner' style="background-image: url('/img/girl-tree-reading-1200x511.jpg') ;")
   block(name='content')
     h2 Thank you!
     p We have recieved your message. Thank you for your interest in Thrive!

@@ -4,7 +4,7 @@ extends(src='layout.sgr')
     title Offerings | Thrive
 
   block(name='banner')
-    div(class='headerBanner' style='background-image: url("/img/girl-laying-on-grass-1200x511.jpg") ;')
+    div(class='headerBanner' style="background-image: url('/img/girl-laying-on-grass-1200x511.jpg') ;")
   block(name='content')
 
     h2(class='centered') Nature-Connected Life Coaching & Mentoring

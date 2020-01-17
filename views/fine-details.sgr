@@ -3,9 +3,9 @@ extends(src='layout.sgr')
     meta(name='description' content='Detailed information about Thrive services including Location & Timing, Students with Special Needs, Billing and Cancellations.')
     title Fine Details | Thrive
   block(name='banner')
-    div(class='headerBanner' style='background-image: url("/img/header-fine-details.png") ;')
+    div(class='headerBanner' style="background-image: url('/img/header-fine-details.png') ;")
   block(name='content')
-    
+
     h2 Location & Timing
 
     p(class='centered')

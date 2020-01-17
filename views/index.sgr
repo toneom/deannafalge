@@ -1,6 +1,6 @@
 extends(src='layout.sgr')
   block(name='banner')
-    div(class='headerBanner' style='background-image: url("/img/girl-field-sun-1200x511.jpg") ;')
+    div(class='headerBanner' style="background-image: url('/img/girl-field-sun-1200x511.jpg') ;")
 
   block(name='header')
     div(class='branding')

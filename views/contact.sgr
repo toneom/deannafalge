@@ -3,9 +3,9 @@ extends(src='layout.sgr')
     meta(name='description' content='Enroll your child in our Tutoring, Academic Coaching and Self Development services')
     title Contact Us
   block(name='banner')
-    div(class='headerBanner' style='background-image: url("/img/deanna-sunlit-lake.jpg") ;')
+    div(class='headerBanner' style="background-image: url('/img/deanna-sunlit-lake.jpg') ;")
   block(name='content')
-  
+
     h2 Contact Us
     p
       span Phone:

@@ -4,7 +4,7 @@ extends(src='layout.sgr')
     title About | Thrive
 
   block(name='banner')
-    div(class='headerBanner' style='background-image: url("/img/boy-rock-forest-1200x510.jpg") ;')
+    div(class='headerBanner' style="background-image: url('/img/boy-rock-forest-1200x510.jpg') ;")
   block(name='content')
     h2 About Thrive Young Leaders
     p.
