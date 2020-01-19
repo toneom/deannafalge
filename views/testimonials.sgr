@@ -7,8 +7,16 @@ extends(src='layout.sgr')
     img(src='/img/friends-group-1200x510.jpg' class='headerBanner' alt='boy silouttes on the beach jumping')
     div
       div(class='testimonial topGutter')
+        p Deanna truly is a light for young people who may see nothing but darkness ahead. She helps them reach their potential by being an example, instilling confidence and helping them find their own light and strength and therefore hopefulness. She helps them take life’s challenges and turn them into character building experiences instead of a hardship that may knock them down.
+        p(class="author") -Beth, Parent, Scotts Valley
+      hr
+      div(class='testimonial topGutter')
+        p Deanna is absolutely one of the most profound people I have met with such a genuinely caring heart. She has impacted my life in many different ways. She has been a mentor, an inspiration and a friend to me for the last two years. Deanna has a way of instantly making you feel like part of the community and she’s not afraid to lead community in whatever way necessary. She has a way of leading that is polite and respectful, and she is not afraid to see what needs to be done and make it happen.
+        p(class="author") -Alyssa, Cabrillo Student, 18, Scotts Valley
+      hr
+      div(class='testimonial topGutter')
         p I have so much gratitude for Deanna. She has made a huge impact on my life. Deanna empowered me to become a confident person and appreciate/respect every aspect of myself, whether it is something I can control or not. Thank you Deanna for being there for me and hearing me out when I really needed someone to listen. Thank you helping me figure things out both by myself and with your guidance. It meant the world to me.
-        p(class="author") -Charlie, Student, Santa Cruz
+        p(class="author") -Charlie, Student, 17, Santa Cruz
       hr
       div(class='testimonial topGutter')
         div(class="container")
@@ -17,4 +25,4 @@ extends(src='layout.sgr')
       hr
       div(class='testimonial topGutter')
         p Deanna helps guide me through my homework by making it fun. She has a positive attitude towards everything and helped me get through 8th grade.
-        p(class="author") -Hana Ben-Dashan, Student, Scotts Valley
+        p(class="author") -Hana, Student, 15, Los Gatos
