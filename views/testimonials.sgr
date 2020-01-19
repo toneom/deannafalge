@@ -9,7 +9,7 @@ extends(src='layout.sgr')
     div
       div(class='testimonial topGutter')
         p I have so much gratitude for Deanna. She has made a huge impact on my life. Deanna empowered me to become a confident person and appreciate/respect every aspect of myself, whether it is something I can control or not. Thank you Deanna for being there for me and hearing me out when I really needed someone to listen. Thank you helping me figure things out both by myself and with your guidance. It meant the world to me.
-        p(class="author") -Charlie, Student, Santa Cruz
+        p(class="author") -Charlie, Student, 17, Santa Cruz
       hr
       div(class='testimonial topGutter')
         div(class="container")
@@ -18,4 +18,4 @@ extends(src='layout.sgr')
       hr
       div(class='testimonial topGutter')
         p Deanna helps guide me through my homework by making it fun. She has a positive attitude towards everything and helped me get through 8th grade.
-        p(class="author") -Hana Ben-Dashan, Student, Scotts Valley
+        p(class="author") -Hana, Student, 15, Los Gatos
