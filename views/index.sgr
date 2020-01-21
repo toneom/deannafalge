@@ -37,30 +37,30 @@ extends(src='layout.sgr')
      a(href="/about#deanna-falge")
       img(src='/img/deanna-falge-thrive-empower.png' )
      div(class='container ')
-       h2
-         a(href="/about#deanna-falge") Deanna Falge
        h3
+         a(href="/about#deanna-falge") Deanna Falge
+       h4
          a(href="/about#deanna-falge") Founder, Director, Life Coach, Mentor
 
     div(class='imageText inline topGutter col3')
      a(href="/about#elizabeth-patron")
       img(src='/img/elizabeth-beach.jpg' )
      div(class='container ')
-       h2
-        a(href="/about#elizabeth-patron") Elizabeth Patron
        h3
+        a(href="/about#elizabeth-patron") Elizabeth Patron
+       h4
         a(href="/about#elizabeth-patron") Tutor & Academic Coach
 
     div(class='imageText inline topGutter col3')
       a(href="/about#rylan-hunt")
        img(src='/img/rylan-backpack.jpg' )
       div(class='container ')
-        h2
-          a(href="/about#rylan-hunt") Rylan Hunt
         h3
+          a(href="/about#rylan-hunt") Rylan Hunt
+        h4
           a(href="/about#rylan-hunt") Tutor & Academic Coach
 
-    p(class='size-medium')
+    p(class="condensed")
      | Ready to learn more about our coaching, mentoring, and guidance work for teens and young adults? Check out our
      |
      a(href='/about') About
