@@ -8,7 +8,7 @@ extends(src='layout.sgr')
     img(src='/img/boy-rock-forest-1200x510.jpg' class='headerBanner' alt='boy sitting on a rock in the forest')
     h2 About Thrive Young Leaders
     p.
-      We all have unique, important gifts to offer ourselves and the world. For the wellbeing and survival of our communities,
+      We all have unique, important gifts to offer ourselves and the world. For the well-being and survival of our communities,
       it is necessary that we each realize and share our true gifts.
       At Thrive Young Leaders, we help teens and young adults overcome internal barriers and guide them into deeper connection with their gifts,
       life purpose, and inner knowing.  By connecting with our gifts and living a purpose-directed life, we become empowered leaders of our own lives, and true leaders of our environment and community.
