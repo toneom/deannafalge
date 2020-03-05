@@ -7,7 +7,11 @@ extends(src='layout.sgr')
     include(src='header.sgr')
 
   block(name='content')
-    img(src='/img/girl-field-sun-1200x511.jpg' class='headerBanner' alt='')
+    div(class="bannerCtaContainer")
+      img(src='/img/girl-field-sun-1200x511.jpg' class='headerBanner' alt='')
+      a(href='/workshops-camps' class="workshopsButton")
+        img(src='/img/workshops-summer-camps.png' alt="Teen Womens April Workshops and Summer Camps")
+
     section(class="intro")
       p
         | Thrive Young Leaders empowers teens and young adults to become true leaders of

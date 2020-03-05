@@ -1,0 +1,146 @@
+extends(src='layout.sgr')
+  block(name='title')
+    meta(name='description' content='Services offered in Tutoring, Academic Coaching and Self Development.')
+    title Workshops & Summer Camps | Thrive
+
+  block(name='content')
+
+    div(class="bannerCtaContainer")
+      img(src='/img/thrive-camp.jpg' class='headerBanner' alt='nature-connection, community building, self exploration')
+      a(href='/workshops-camps' class="workshopsButton")
+        img(src='/img/workshops-summer-camps.png' alt="Teen Womens April Workshops and Summer Camps")
+    h1(class='centered') Teen Women’s Nature & Soul
+    div(class='anchorMenu')
+      a(href='#april' class="green") 1-DAY APRIL WORKSHOPS
+      a(href='#summercamps' class="red") 5-DAY SUMMER CAMPS
+      a(href='#registration' class="blue") REGISTRATION
+      a(href='#theguides' class="purple") THE GUIDES
+
+    h2(class="green")
+      a(id='april' class="green") 1-Day April Workshops
+    p
+      | For all Teen Women* Ages 14-18! Join us in making new friends, learning nature-connection skills, and developing
+      | a deeper connection with ourselves and Earth! We will explore animal tracking, plant ID, bird language, and wildcrafting,
+      | as well as raise self confidence, develop mindful listening skills, and build community! This workshop is a wonderful opportunity
+      | to get a taste of our June & August SUMMER CAMPS!
+
+    h3(class="green") Cupertino
+    p
+      span DATE/TIME:
+      | Saturday April 4th, 11-3pm
+      br
+      span LOCATION:
+      | Stevens Creek County Park
+
+    h3(class="green") Santa Cruz
+    p
+      span DATE/TIME:
+      | Sunday April 5th, 11-3pm
+      br
+      span Location:
+      | Henry Cowell State Park
+    p (exact locations provided after registration)
+
+    p
+      span PRICE:
+      br
+      | $40-60 sliding scale**
+    p
+      span SCHEDULE:
+    ul
+      li 11-11:15am: Check-in
+      li 11:15-11:30am: Opening Circle
+      li 11:30-12pm: Hike, animal tracking, sensory awareness, plant ID
+      li 12-1pm: Group nature-connection & community building activity
+      li 1-1:30pm: Lunch
+      li 1:30-2:20pm: Self-reflection & confidence building activity, mindful listening, & journaling
+      li 2:20-2:45pm: Hike back
+      li 2:45-3pm: Closing Circle
+
+    ul
+      li  * "Women" includes all cis and trans teen women, as well as gender questioning, fluid, & nonconforming teens. We are LGBTQIA+ friendly.
+      li ** Scholarships available for those who wish to join but do not have the funds!
+
+    h2(class="red")
+      a(id="summercamps" class="red") 5-DAY SUMMER CAMPS
+
+    p For all Teen Women* Ages 14-18! Join us this Summer to make life-long friends, learn wilderness awareness and nature-connection skills, and develop a deeper, more meaningful connection with ourselves and Earth!
+    p
+      span ACTIVITIES INCLUDE:
+      | Wild crafting, animal tracking, plant identification, bird language, storytelling, music, art, confidence building, self-reflection walks, journaling, sharing circles, leadership development, health & wellness, mindful listening, conscious communication, & more!
+
+    h3(class="red") SANTA CRUZ
+    p
+      span DATE/TIME:
+      | June 22-26th, 10-3:30pm
+      br
+      span LOCATION:
+      | Henry Cowell SP, Wilder Ranch SP, Pogonip
+    h3(class="red") Cupertino
+    p
+      span DATE/TIME:
+      | August 3-7th, 10-3:30pm
+      br
+      span LOCATION:
+      | Stevens Creek County Park
+
+    p (exact locations provided after registration)
+
+    p
+      span PRICE:
+      br
+      | $300-400 sliding scale*
+    h3(class="red") DAILY THEMES:
+    ul
+      li Monday: Community Building
+      li Tuesday: Nature Connection
+      li Wednesday: Self-Exploration
+      li Thursday: Health & Wellness
+      li Friday: Celebrating Community, Nature, & Soul
+
+    h3(class="red") SAMPLE DAY SCHEDULE:
+    ul
+      li 10-10:15am: Check-in
+      li 10:15-10:30am: Opening Circle
+      li 10:30-11am: Hiking & Nature Awareness Activity
+      li 11-12pm: Wildcrafting Project
+      li 12-1:00pm: Lunch, Storytelling & Free-time
+      li 1:00-2:00pm: Nature Sit Spot, Self-reflection Activity & Nature Journaling
+      li 2-2:30pm: Animal tracking & Bird Language activity
+      li 2:30-3:00pm: Finish Wildcrafting Project
+      li 3:00-3:30pm: Hike back & Closing Circle
+
+    ul
+      li * "Women" includes all cis and trans teen women, as well as gender questioning, fluid, & nonconforming teens. We are LGBTQIA+ friendly.
+      li ** Scholarships available for those who wish to join but do not have the funds!
+
+
+    h2(class="blue")
+      a(id="registration" class="blue") Registration
+
+    p To register and/or ask us questions, please contact Deanna Falge:
+    p 831-234-1874
+    p thriveyoungleaders@gmail.com
+
+
+    h2(class="purple")
+      a(id="theguides" class="purple") ABOUT THE GUIDES
+
+    p Both guides are Ecotherapy and CPR/FA/AED Certified!
+
+    div(class='imageText stacked topGutter', id='deanna-falge')
+      img(src='/img/deanna-bio.jpg' )
+      div(class='container ')
+        h2 Deanna Falge
+        h3 Nature-Connected Life Coach & Guide, Youth Mentor, Outdoor Educator, BS Biological Psychology
+        p.
+          Deanna Falge founded Thrive Young Leaders out of her love for connecting with youth. Deanna’s passion and life mission is to empower Earth’s young leaders (especially young women) into deep and meaningful connection with nature, community, and self. When she was a teen woman, Deanna struggled with feeling disconnected from the world, and ultimately herself. Now that Deanna has discovered her connection and belonging to Earth and humanity, she is passionate about offering the nature-connected guidance, support, and community that all teen women need and deserve to live an empowered, connected, and abundant life!
+        p.
+          Deanna has experience and formal education in biological psychology, outdoor education & leadership, life coaching, mentoring, tutoring, wilderness survival skills, indigenous history, ecotherapy, soul exploration, mindfulness, peaceful communication (NVC), rites of passage, nature connection, and dance. She earned her degree in Biological Psychology from UC Santa Barbara, Certificate in Ecotherapy from the Earthbody Institute, Certificate in Nature-Connected Life Coaching from the Earth-Based Institute, and has years of teaching, coaching, tutoring, guiding, and mentoring experience with youth, including teen women.
+
+    div(class='imageText stacked topGutter' id='elizabeth-patron')
+      img(src='/img/emily-bio.jpg' )
+      div(class='container ')
+        h2 EMILY CONTRERAS (“Birdie”)
+        h3 Outdoor Educator, Youth Mentor, Permaculturalist
+        p Birdie (Emily’s nature name) has worked with youth for the past 8+ years as a mentor, tutor, gymnastics coach, nature-connection guide, and outdoor educator. Born and raised in Los Angeles, Birdie was able to connect with the natural realm through mud fights in her backyard, friendships with her pets, and regular visits to local parks, but was limited in developing a deeper connection with the more-than-human world until she moved to Santa Cruz in her young adulthood. Since beginning her work as an outdoor educator, Birdie has studied ecotherapy, permaculture design, ecovillage design, agroforestry, nature awareness, primitive skills, youth mentorship, and The Work That Reconnects, as a way to be of better service to the youth that she works with. She is dedicated to working towards a more sustainable and integrated way of living with our mother Earth and all of her inhabitants. By incorporating all that she learns in her environmental and social studies into her mentoring style, Birdie hopes to inspire and aid youth (including teen women) in connecting more deeply with themselves, one another, and our beloved planet.

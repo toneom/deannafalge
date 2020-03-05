@@ -12,6 +12,14 @@
     margin-top    : var(--gutter)
 .fullWidth
   width: 100%
+.green
+  color : var(--color5)
+.red
+  color : var(--color6)
+.blue
+  color : var(--color7)
+.purple
+  color : var(--color8)
 
 body
   padding       : 0
@@ -103,6 +111,8 @@ main
         @media(min-width: 1000px )
           width         : 60%
           margin        : 1em auto
+
+
   & nav
     font-size          : 1.2em
 
@@ -188,7 +198,7 @@ div.imageText
       border-radius : 100%
       @media (min-width: 500px )
         width           : 50%
-    
+
   &.col3
     width           : 100%
     margin        : 2em auto
@@ -283,9 +293,86 @@ div.branding
       font-weight             : 600
       line-height             : 1em
 
-
+.bannerCtaContainer
+  position: relative
 img.headerBanner
-  width: 100%
+  width : 100%
+
+main#index
+  & a.workshopsButton
+    position: absolute
+
+    right : 2%
+    top   : 3%
+    width : 40%
+    @media (min-width: 800px )
+      top   : 10%
+      right: 8%
+      width : 200px
+    @media (min-width: 1000px )
+      top   : 10%
+      right: 8%
+      width : 220px
+    @media (min-width: 1000px )
+      top   : 10%
+      right: 10%
+      width : 233px
+
+    & img
+      display: block
+      width: 100%
+main#workshops-camps
+  & a.workshopsButton
+    position: absolute
+
+    right : 2%
+    bottom   : 18%
+    width : 30%
+    @media (min-width: 800px )
+      bottom   : 18%
+      right: 5%
+      width : 180px
+    @media (min-width: 1000px )
+      bottom   : 20%
+      right: 7%
+      width : 210px
+    @media (min-width: 1200px )
+      bottom   : 20%
+      right: 7%
+      
+
+    & img
+      display: block
+      width: 100%
+
+main#workshops-camps
+  & h1
+    font-size : 2em
+  & h1, & h2, & h3
+    text-transform : uppercase
+
+  & h2
+    font-weight : bold
+    border-top  : 1.5px solid var(--color1)
+    padding-top : 1em
+
+  & .imageText
+    & img
+      padding-top: 3em
+    & h2
+      border-top : 0
+      padding-top : inherit
+  & div.anchorMenu
+    & a
+      display       : block
+      font-size     : 1.5em
+      font-weight   : bold
+  & a:hover
+    color: inherit
+  & ul
+    padding : 0
+    list-style : none
+
 
 ul
 
