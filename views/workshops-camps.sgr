@@ -25,29 +25,29 @@ extends(src='layout.sgr')
       | to get a taste of our June & August SUMMER CAMPS!
 
     h3(class="green") Cupertino
-    p
+    p(class="trimTop")
       span DATE/TIME:
-      | Saturday April 4th, 11-3pm
+      |  Saturday April 4th, 11-3pm
       br
       span LOCATION:
-      | Stevens Creek County Park
+      |  Stevens Creek County Park
 
     h3(class="green") Santa Cruz
-    p
+    p(class="trimTop")
       span DATE/TIME:
-      | Sunday April 5th, 11-3pm
+      |  Sunday April 5th, 11-3pm
       br
-      span Location:
-      | Henry Cowell State Park
+      span LOCATION:
+      |  Henry Cowell State Park
     p (exact locations provided after registration)
 
-    p
-      span PRICE:
-      br
-      | $40-60 sliding scale**
-    p
-      span SCHEDULE:
-    ul
+
+    h3(class="green") PRICE:
+    p(class="trimTop") $40-60 sliding scale**
+
+    h3(class="green") SCHEDULE:
+
+    ul(class="trimTop")
       li 11-11:15am: Check-in
       li 11:15-11:30am: Opening Circle
       li 11:30-12pm: Hike, animal tracking, sensory awareness, plant ID
@@ -67,31 +67,29 @@ extends(src='layout.sgr')
     p For all Teen Women* Ages 14-18! Join us this Summer to make life-long friends, learn wilderness awareness and nature-connection skills, and develop a deeper, more meaningful connection with ourselves and Earth!
     p
       span ACTIVITIES INCLUDE:
-      | Wild crafting, animal tracking, plant identification, bird language, storytelling, music, art, confidence building, self-reflection walks, journaling, sharing circles, leadership development, health & wellness, mindful listening, conscious communication, & more!
+      |  Wild crafting, animal tracking, plant identification, bird language, storytelling, music, art, confidence building, self-reflection walks, journaling, sharing circles, leadership development, health & wellness, mindful listening, conscious communication, & more!
 
     h3(class="red") SANTA CRUZ
-    p
+    p(class="trimTop")
       span DATE/TIME:
-      | June 22-26th, 10-3:30pm
+      |  June 22-26th, 10-3:30pm
       br
       span LOCATION:
-      | Henry Cowell SP, Wilder Ranch SP, Pogonip
+      |  Henry Cowell SP, Wilder Ranch SP, Pogonip
     h3(class="red") Cupertino
-    p
+    p(class="trimTop")
       span DATE/TIME:
-      | August 3-7th, 10-3:30pm
+      |  August 3-7th, 10-3:30pm
       br
       span LOCATION:
-      | Stevens Creek County Park
+      |  Stevens Creek County Park
 
     p (exact locations provided after registration)
 
-    p
-      span PRICE:
-      br
-      | $300-400 sliding scale*
-    h3(class="red") DAILY THEMES:
-    ul
+    h3(class="red") PRICE:
+    p(class="trimTop") $300-400 sliding scale*
+    h3(class="red" ) DAILY THEMES:
+    ul(class="trimTop")
       li Monday: Community Building
       li Tuesday: Nature Connection
       li Wednesday: Self-Exploration
@@ -99,7 +97,7 @@ extends(src='layout.sgr')
       li Friday: Celebrating Community, Nature, & Soul
 
     h3(class="red") SAMPLE DAY SCHEDULE:
-    ul
+    ul(class="trimTop")
       li 10-10:15am: Check-in
       li 10:15-10:30am: Opening Circle
       li 10:30-11am: Hiking & Nature Awareness Activity
