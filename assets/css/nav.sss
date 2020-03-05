@@ -138,13 +138,17 @@
   position: absolute
   left: -20px
   top: 30px
+
   background-color: #fff
   font-size: .9em
   min-width: 160px
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2)
   z-index: 1
   padding: 10px 10px
-
+  @media (max-width: 526px )
+    position: static
+    left: 0
+    top: 0
 /* Links inside the dropdown */
 .dropdown-content a
   padding: 5px 10px
