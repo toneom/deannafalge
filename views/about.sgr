@@ -21,7 +21,7 @@ extends(src='layout.sgr')
     br
     br
     div(class='imageText stacked topGutter', id='deanna-falge')
-      img(src='/img/deanna-falge-thrive-empower.png' )
+      img(src='/img/deanna-bio.jpg' )
       div(class='container ')
         h2 Deanna Falge
         h3 Founder, Director, Nature-Connected Life Coach, Mentor, Academic Guide
