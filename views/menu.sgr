@@ -7,8 +7,18 @@ nav
     if(condition="pageId != 'index'")
       li
         a(href="/index") Home
-    each(loop="item of navigation.data")
-      li
-        a(class="{{ pageId === item.slug  ? 'selected' : '' }}" href="/{{ item.slug }}") {{ item.name }}
+    li(class="dropdown")
+      a(href="#" class="toggleDropdown") Offerings
+      div(id="myDropdown" class="dropdown-content")
+        a(href="/offerings") 1-on–1 Guidance
+        a(href="/workshops-camps") Workshops & Summer Camps
+    li
+      a(href="/about") About
+    li
+      a(href="/testimonials") Testimonials
+    li
+      a(href="/fine-details") Fine Details
+    li
+      a(href="/contact") contact
     li
       a(href="tel:831.234.1874") 831.234.1874
