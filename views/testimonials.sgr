@@ -15,6 +15,10 @@ extends(src='layout.sgr')
         p(class="author") -Alyssa, Cabrillo Student, 18, Scotts Valley
       hr
       div(class='testimonial topGutter')
+        p In my first session with Deanna, she instantly created a safe container for me to feel and share. We walked through the trees talking, periodically stopping to enjoy the nature. She is very receptive to emotional needs, made me feel very heard, and provided some tools for me to approach situations in my life I was having difficulty facing. She is much more than just a coach or guide, and offers wisdom without being pushy, simply opening a window to view a situation without telling you what to see. Her approach to coaching is multifaceted and nuanced by her perceptive observation, which holistically discerns without judgment. I would highly recommend trying out a session to see if her approach works for you.”
+        p(class="author") -Jordan, Research Scientist, 24 Santa Cruz
+      hr
+      div(class='testimonial topGutter')
         p I have so much gratitude for Deanna. She has made a huge impact on my life. Deanna empowered me to become a confident person and appreciate/respect every aspect of myself, whether it is something I can control or not. Thank you Deanna for being there for me and hearing me out when I really needed someone to listen. Thank you helping me figure things out both by myself and with your guidance. It meant the world to me.
         p(class="author") -Charlie, Student, 17, Santa Cruz
       hr
