@@ -42,3 +42,9 @@ extends(src='layout.sgr')
         h2 Rylan Hunt
         h3 Tutor & Academic Coach
         p Rylan grew up in Santa Cruz and earned a BS degree in Physics at UC Berkeley. He has been tutoring and coaching students for many years, and especially loves to tutor AP Physics and math. When he isn’t tutoring, Rylan loves to travel the world, surf big waves, and forage for exotic mushrooms.
+    div(class='imageText stacked topGutter' id='elizabeth-patron')
+      img(src='/img/emily-bio.jpg' )
+      div(class='container ')
+        h2 EMILY CONTRERAS (“Birdie”)
+        h3 Outdoor Educator, Youth Mentor, Permaculturalist
+        p Birdie (Emily’s nature name) has worked with youth for the past 8+ years as a mentor, tutor, gymnastics coach, nature-connection guide, and outdoor educator. Born and raised in Los Angeles, Birdie was able to connect with the natural realm through mud fights in her backyard, friendships with her pets, and regular visits to local parks, but was limited in developing a deeper connection with the more-than-human world until she moved to Santa Cruz in her young adulthood. Since beginning her work as an outdoor educator, Birdie has studied ecotherapy, permaculture design, ecovillage design, agroforestry, nature awareness, primitive skills, youth mentorship, and The Work That Reconnects, as a way to be of better service to the youth that she works with. She is dedicated to working towards a more sustainable and integrated way of living with our mother Earth and all of her inhabitants. By incorporating all that she learns in her environmental and social studies into her mentoring style, Birdie hopes to inspire and aid youth (including teen women) in connecting more deeply with themselves, one another, and our beloved planet.
