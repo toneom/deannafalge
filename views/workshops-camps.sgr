@@ -9,80 +9,27 @@ extends(src='layout.sgr')
       img(src='/img/thrive-camp.jpg' class='headerBanner' alt='nature-connection, community building, self exploration')
       a(href='/workshops-camps' class="workshopsButton")
         img(src='/img/workshops-summer-camps.png' alt="Teen Womens April Workshops and Summer Camps")
-    h1(class='centered') Teen Women’s Nature & Soul
+    h1(class='centered') Teen Women's Outdoor Empowerment
     div(class='anchorMenu')
-      a(href='#april' class="green") 1-DAY APRIL WORKSHOPS
-      a(href='#summercamps' class="red") 5-DAY SUMMER CAMPS
+      a(href='#summercamps' class="red") AUGUST 5-DAY SUMMER CAMPS
       a(href='#registration' class="blue") REGISTRATION
       a(href='#theguides' class="purple") THE GUIDES
 
-    h2(class="green")
-      a(id='april' class="green") 1-Day April Workshops
-    p
-      | For all Teen Women* Ages 14-18! Join us in making new friends, learning nature-connection skills, and developing
-      | a deeper connection with ourselves and Earth! We will explore animal tracking, plant ID, bird language, and wildcrafting,
-      | as well as raise self confidence, develop mindful listening skills, and build community! This workshop is a wonderful opportunity
-      | to get a taste of our June & August SUMMER CAMPS!
-
-    h3(class="green") Cupertino
-    p(class="trimTop")
-      span DATE/TIME:
-      |  Saturday April 4th, 11-3pm
-      br
-      span LOCATION:
-      |  Stevens Creek County Park
-
-    h3(class="green") Santa Cruz
-    p(class="trimTop")
-      span DATE/TIME:
-      |  Sunday April 5th, 11-3pm
-      br
-      span LOCATION:
-      |  Henry Cowell State Park
-    p (exact locations provided after registration)
-
-
-    h3(class="green") PRICE:
-    p(class="trimTop") $40-60 sliding scale**
-
-    h3(class="green") SCHEDULE:
-
-    ul(class="trimTop")
-      li 11-11:15am: Check-in
-      li 11:15-11:30am: Opening Circle
-      li 11:30-12pm: Hike, animal tracking, sensory awareness, plant ID
-      li 12-1pm: Group nature-connection & community building activity
-      li 1-1:30pm: Lunch
-      li 1:30-2:20pm: Self-reflection & confidence building activity, mindful listening, & journaling
-      li 2:20-2:45pm: Hike back
-      li 2:45-3pm: Closing Circle
-
-    ul
-      li  * "Women" includes all cis and trans teen women, as well as gender questioning, fluid, & nonconforming teens. We are LGBTQIA+ friendly.
-      li ** Scholarships available for those who wish to join but do not have the funds!
-
     h2(class="red")
-      a(id="summercamps" class="red") 5-DAY SUMMER CAMPS
+      a(id="summercamps" class="red") August 5-DAY SUMMER CAMPS
 
-    p For all Teen Women* Ages 14-18! Join us this Summer to make life-long friends, learn wilderness awareness and nature-connection skills, and develop a deeper, more meaningful connection with ourselves and Earth!
+    p For all Teen Women* ages 14-18! Join us this August to learn nature-connection and wilderness survival skills, build self-confidence, develop a deeper connection with your body, health, and self, and make life-long friends!
     p
       span ACTIVITIES INCLUDE:
-      |  Wild crafting, animal tracking, plant identification, bird language, storytelling, music, art, confidence building, self-reflection walks, journaling, sharing circles, leadership development, health & wellness, mindful listening, conscious communication, & more!
+      |  Hiking, animal tracking, wild crafting, plant identification, bird language, art, journaling, leadership development, community building, women’s hormone cycle awareness, self-care, body confidence, mindful communication, and more!
 
     h3(class="red") SANTA CRUZ
-    p(class="trimTop")
-      span DATE/TIME:
-      |  June 22-26th, 10-3:30pm
-      br
-      span LOCATION:
-      |  Henry Cowell SP, Wilder Ranch SP, Pogonip
-    h3(class="red") Cupertino
     p(class="trimTop")
       span DATE/TIME:
       |  August 3-7th, 10-3:30pm
       br
       span LOCATION:
-      |  Stevens Creek County Park
+      |  Henry Cowell SP, Wilder Ranch SP, Pogonip
 
     p (exact locations provided after registration)
 
@@ -90,23 +37,21 @@ extends(src='layout.sgr')
     p(class="trimTop") $300-400 sliding scale*
     h3(class="red" ) DAILY THEMES:
     ul(class="trimTop")
-      li Monday: Community Building
-      li Tuesday: Nature Connection
-      li Wednesday: Self-Exploration
-      li Thursday: Health & Wellness
-      li Friday: Celebrating Community, Nature, & Soul
+      li Monday: Community Building & Nature-Connection
+      li Tuesday: Nature & Wilderness Survival Skills
+      li Wednesday: Self-Discovery & Confidence
+      li Thursday: Hormone Health & Wellness
+      li Friday: Leadership & Celebration
 
     h3(class="red") SAMPLE DAY SCHEDULE:
     ul(class="trimTop")
-      li 10-10:15am: Check-in
-      li 10:15-10:30am: Opening Circle
-      li 10:30-11am: Hiking & Nature Awareness Activity
-      li 11-12pm: Wildcrafting Project
-      li 12-1:00pm: Lunch, Storytelling & Free-time
-      li 1:00-2:00pm: Nature Sit Spot, Self-reflection Activity & Nature Journaling
-      li 2-2:30pm: Animal tracking & Bird Language activity
-      li 2:30-3:00pm: Finish Wildcrafting Project
-      li 3:00-3:30pm: Hike back & Closing Circle
+      li 10-10:30am: Check-in & Opening Circle
+      li 10:30-11:30am: Hiking & Plant Identification Skills
+      li 11:30-12:30pm: Natural Dye Art Project
+      li 12:30-1:30pm: Lunch & Free-time
+      li 1:30-2:30pm: Self Discovery Activity & Nature Journaling
+      li 2:30-3:00pm: Finish Natural Dye Project
+      li 3:00-3:30pm: Hiking & Closing Circle
 
     ul
       li * "Women" includes all cis and trans teen women, as well as gender questioning, fluid, & nonconforming teens. We are LGBTQIA+ friendly.
