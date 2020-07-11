@@ -2,6 +2,7 @@
 @import 'vars.sss'
 @import 'nav.sss'
 
+
 .topGutter
   margin-top  : var(--gutterMobile)
   @media(min-width: 800px )
@@ -162,7 +163,11 @@ main
           /* color: #d7df21 */
           color: var(--color1 )
 
-
+.trimTop
+  margin-top : 0
+  padding-top : 0
+p.caption
+  margin : .5em
 div.imageText
   position        : relative
   overflow        : hidden
@@ -370,7 +375,7 @@ main#workshops-camps
       padding-top : inherit
     & h3
       text-transform: none
-      
+
   & div.anchorMenu
     & a
       display       : block
