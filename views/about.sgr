@@ -42,7 +42,14 @@ extends(src='layout.sgr')
         h2 Rylan Hunt
         h3 Tutor & Academic Coach
         p Rylan grew up in Santa Cruz and earned a BS degree in Physics at UC Berkeley. He has been tutoring and coaching students for many years, and especially loves to tutor AP Physics and math. When he isn’t tutoring, Rylan loves to travel the world, surf big waves, and forage for exotic mushrooms.
-    div(class='imageText stacked topGutter' id='elizabeth-patron')
+    div(class='imageText stacked topGutter', id='deanna-falge')
+      img(src='/img/annie-shaw-bio.jpg' )
+      div(class='container ')
+        h2 ANNIE SHAW
+        h3 Women's Health Educator, Doula, Youth Mentor
+        p.
+          Annie has a passion for teaching youth about their hormone cycle so they can understand themselves better and see themselves as part of larger cycles of life. She believes body literacy is essential learning for the transition from a girl’s adolescence to adulthood. Annie has a background in birthwork and several years of hormonal health studies.
+    div(class='imageText stacked topGutter' id='emily-contreras')
       img(src='/img/emily-bio.jpg' )
       div(class='container ')
         h2 Emily Contreras (“Birdie”)

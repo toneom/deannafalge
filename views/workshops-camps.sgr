@@ -7,16 +7,15 @@ extends(src='layout.sgr')
 
     div(class="bannerCtaContainer")
       img(src='/img/thrive-camp.jpg' class='headerBanner' alt='nature-connection, community building, self exploration')
-      a(href='/workshops-camps' class="workshopsButton")
-        img(src='/img/workshops-summer-camps.png' alt="Teen Womens April Workshops and Summer Camps")
+
     h1(class='centered') Teen Women's Outdoor Empowerment
     div(class='anchorMenu')
-      a(href='#summercamps' class="red") AUGUST 5-DAY SUMMER CAMPS
+      a(href='#summercamps' class="red") 5-DAY AUGUST CAMP
       a(href='#registration' class="blue") REGISTRATION
       a(href='#theguides' class="purple") THE GUIDES
 
     h2(class="red")
-      a(id="summercamps" class="red") August 5-DAY SUMMER CAMPS
+      a(id="summercamps" class="red") 5-Day August Camp
 
     p For all Teen Women* ages 14-18! Join us this August to learn nature-connection and wilderness survival skills, build self-confidence, develop a deeper connection with your body, health, and self, and make life-long friends!
     p
@@ -34,7 +33,11 @@ extends(src='layout.sgr')
     p (exact locations provided after registration)
 
     h3(class="red") PRICE:
-    p(class="trimTop") $300-400 sliding scale*
+    p(class="trimTop")
+      | $300-400 sliding scale*
+      br
+      strong Bring a friend, and you each get 50% off!
+
     h3(class="red" ) DAILY THEMES:
     ul(class="trimTop")
       li Monday: Community Building & Nature-Connection
@@ -80,6 +83,14 @@ extends(src='layout.sgr')
           Deanna Falge founded Thrive Young Leaders out of her love for connecting with youth. Deanna’s passion and life mission is to empower Earth’s young leaders (especially young women) into deep and meaningful connection with nature, community, and self. When she was a teen woman, Deanna struggled with feeling disconnected from the world, and ultimately herself. Now that Deanna has discovered her connection and belonging to Earth and humanity, she is passionate about offering the nature-connected guidance, support, and community that all teen women need and deserve to live an empowered, connected, and abundant life!
         p.
           Deanna has experience and formal education in biological psychology, outdoor education & leadership, life coaching, mentoring, tutoring, wilderness survival skills, indigenous history, ecotherapy, soul exploration, mindfulness, peaceful communication (NVC), rites of passage, nature connection, and dance. She earned her degree in Biological Psychology from UC Santa Barbara, Certificate in Ecotherapy from the Earthbody Institute, Certificate in Nature-Connected Life Coaching from the Earth-Based Institute, and has years of teaching, coaching, tutoring, guiding, and mentoring experience with youth, including teen women.
+
+    div(class='imageText stacked topGutter', id='deanna-falge')
+      img(src='/img/annie-shaw-bio.jpg' )
+      div(class='container ')
+        h2 ANNIE SHAW
+        h3 Women's Health Educator, Doula, Youth Mentor
+        p.
+          Annie has a passion for teaching youth about their hormone cycle so they can understand themselves better and see themselves as part of larger cycles of life. She believes body literacy is essential learning for the transition from a girl’s adolescence to adulthood. Annie has a background in birthwork and several years of hormonal health studies.
 
     div(class='imageText stacked topGutter' id='elizabeth-patron')
       img(src='/img/emily-bio.jpg' )
