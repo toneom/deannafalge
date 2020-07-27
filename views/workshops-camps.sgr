@@ -14,6 +14,8 @@ extends(src='layout.sgr')
       a(href='#registration' class="blue") REGISTRATION
       a(href='#theguides' class="purple") THE GUIDES
 
+    p COVID Statement: In effort to protect your teen and our community, we will still run our camp while following social distancing and frequent sanitization. Masks are not required. We will respect each teen's and family's personal boundaries.
+
     h2(class="red")
       a(id="summercamps" class="red") 5-Day August Camp
 
