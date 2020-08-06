@@ -1,6 +1,6 @@
 extends(src='layout.sgr')
   block(name='title')
-    meta(name='description' content='Services offered in Tutoring, Academic Coaching and Self Development.')
+    meta(name='description' content='Offering Nature-Based Life Coaching, Mentoring, Guidance, Tutoring, and Academic Coaching.')
     title Group Guidance | Thrive
 
   block(name='content')
@@ -9,6 +9,7 @@ extends(src='layout.sgr')
       img(src='/img/group-hike.jpg' class='headerBanner' alt='nature-connection, community building, self exploration')
 
     h1(class='centered') Group Guidance
+
     div(class='anchorMenu')
       a(href='#outdoorteengroups' class="red") OUTDOOR TEEN GROUPS
       a(href='#teenwomensgroups' class="green") TEEN WOMEN'S GROUPS

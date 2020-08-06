@@ -30,7 +30,7 @@ extends(src='layout.sgr')
         b  After-School Outdoor Teen Programs
         |  that are COVID safe!
         br
-        | Check out our programs
+        | Check out our programs 
         a(href="/group-guidance") here
         | .
 

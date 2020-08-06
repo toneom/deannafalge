@@ -1,6 +1,6 @@
 extends(src='layout.sgr')
   block(name='title')
-    meta(name='description' content='Services offered in Tutoring, Academic Coaching and Self Development.')
+    meta(name='description' content='Offering Nature-Based Life Coaching, Mentoring, Guidance, Tutoring, and Academic Coaching.')
     title Services | Thrive
 
   block(name='content')
