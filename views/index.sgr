@@ -9,7 +9,7 @@ extends(src='layout.sgr')
   block(name='content')
     div(class="bannerCtaContainer")
       img(src='/img/girl-field-sun-1200x511.jpg' class='headerBanner' alt='')
-      a(href='/workshops-camps' class="workshopsButton")
+      a(href='/group-guidance' class="workshopsButton")
         img(src='/img/workshops-summer-camps.png' alt="Teen Womens April Workshops and Summer Camps")
 
     section(class="intro")
@@ -30,8 +30,8 @@ extends(src='layout.sgr')
         b  After-School Outdoor Teen Programs
         |  that are COVID safe!
         br
-        | Check out our programs 
-        a(href="/workshops-camps") here
+        | Check out our programs
+        a(href="/group-guidance") here
         | .
 
     hr
