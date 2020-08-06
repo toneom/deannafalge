@@ -4,7 +4,7 @@ extends(src='layout.sgr')
     title Testimonials
 
   block(name='content')
-    img(src='/img/friends-group-1200x510.jpg' class='headerBanner' alt='boy silouttes on the beach jumping')
+    img(src='/img/teen-girl.jpg' class='headerBanner' alt='teen girl selfie with mountain background')
     div
       div(class='testimonial topGutter')
         p Deanna truly is a light for young people who may see nothing but darkness ahead. She helps them reach their potential by being an example, instilling confidence and helping them find their own light and strength and therefore hopefulness. She helps them take life’s challenges and turn them into character building experiences instead of a hardship that may knock them down.

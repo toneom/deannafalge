@@ -1,81 +1,83 @@
 extends(src='layout.sgr')
   block(name='title')
     meta(name='description' content='Services offered in Tutoring, Academic Coaching and Self Development.')
-    title Workshops & Summer Camps | Thrive
+    title Group Guidance | Thrive
 
   block(name='content')
 
     div(class="bannerCtaContainer")
-      img(src='/img/thrive-camp.jpg' class='headerBanner' alt='nature-connection, community building, self exploration')
+      img(src='/img/group-hike.jpg' class='headerBanner' alt='nature-connection, community building, self exploration')
 
-    h1(class='centered') Teen Women's Outdoor Empowerment
+    h1(class='centered') Group Guidance
     div(class='anchorMenu')
-      a(href='#summercamps' class="red") 5-DAY AUGUST CAMP
+      a(href='#outdoorteengroups' class="red") OUTDOOR TEEN GROUPS
+      a(href='#teenwomensgroups' class="green") TEEN WOMEN'S GROUPS
       a(href='#registration' class="blue") REGISTRATION
       a(href='#theguides' class="purple") THE GUIDES
 
-    p COVID Statement: In effort to protect your teen and our community, we will still run our camp while following social distancing and frequent sanitization. Masks are not required. We will respect each teen's and family's personal boundaries.
-
-    h2(class="red")
-      a(id="summercamps" class="red") 5-Day August Camp
-
-    p For all Teen Women* ages 14-18! Join us this August to learn nature-connection and wilderness survival skills, build self-confidence, develop a deeper connection with your body, health, and self, and make life-long friends!
     p
-      span ACTIVITIES INCLUDE:
-      |  Hiking, animal tracking, wild crafting, plant identification, bird language, art, journaling, leadership development, community building, women’s hormone cycle awareness, self-care, body confidence, mindful communication, and more!
+      b COVID Statement: In effort to protect your teen and our community, we are running our small teen groups while following social distancing (6-ft distance) and frequent sanitization. Masks are optional. We will respect each teen’s and family’s personal boundaries. Families can choose to bring their own “pod” to us, or join one of our “pods” (see below). Maximum 1:5 guide to teen ratio.
+    h2(class="red")
+      a(id="outdoorteengroups" class="red") OUTDOOR TEEN GROUPS
+
+    p Join one of our teen “pods” or bring your own “pod” to us!
+    p For all teens, ages 13-17! We are offering Covid safe after-school teen group programs in Santa Cruz. Families can choose to bring their own pod of teens to us for a customized program OR we will create a teen pod for you! Max 1:5 guide to teen ratio. Group activities and guides are customized to teen interest!
+    p
+     span ACTIVITIES MAY INCLUDE:
+     |  Hiking, wilderness survival and ancestral skills (i.e. animal tracking, wild crafting, plant ID, bird language, fire building, shelter building, etc), nature art and journaling, dance and movement, creative projects, self-reflection and exploration, community building, leadership development, mindful listening and communication, empowerment and confidence building, and more!
 
     h3(class="red") SANTA CRUZ
     p(class="trimTop")
       span DATE/TIME:
-      |  August 3-7th, 10-3:30pm
+      |  6-week sessions after school (3-4 hours) OR weekend retreats
       br
       span LOCATION:
-      |  Henry Cowell SP, Wilder Ranch SP, Pogonip
-
-    p (exact locations provided after registration)
+      |  Multiple locations throughout Santa Cruz, including Henry Cowell, Fall Creek, Wilder Ranch, Natural Bridges, Pogonip, and Nisene Marks. Exact locations depend on the needs of the group.
 
     h3(class="red") PRICE:
     p(class="trimTop")
-      | $300-400 sliding scale*
+      | Dependent upon number of teens and meetings per week.
       br
-      strong Bring a friend, and you each get 50% off!
+      | EX: For 3.5 hours once per week: $300 for 6-weeks
+      br
+      | Scholarships available! Please contact us for more information.
 
-    h3(class="red" ) DAILY THEMES:
-    ul(class="trimTop")
-      li Monday: Community Building & Nature-Connection
-      li Tuesday: Nature & Wilderness Survival Skills
-      li Wednesday: Self-Discovery & Confidence
-      li Thursday: Hormone Health & Wellness
-      li Friday: Leadership & Celebration
 
-    h3(class="red") SAMPLE DAY SCHEDULE:
-    ul(class="trimTop")
-      li 10-10:30am: Check-in & Opening Circle
-      li 10:30-11:30am: Hiking & Plant Identification Skills
-      li 11:30-12:30pm: Natural Dye Art Project
-      li 12:30-1:30pm: Lunch & Free-time
-      li 1:30-2:30pm: Self Discovery Activity & Nature Journaling
-      li 2:30-3:00pm: Finish Natural Dye Project
-      li 3:00-3:30pm: Hiking & Closing Circle
-
-    ul
-      li * "Women" includes all cis and trans teen women, as well as gender questioning, fluid, & nonconforming teens. We are LGBTQIA+ friendly.
-      li ** Scholarships available for those who wish to join but do not have the funds!
-
+    h2(class="green")
+      a(id="teenwomensgroups" class="green") TEEN WOMEN'S GROUPS
+    p For teen women ages 13-17! Join us to learn nature connection and survival skills, build self-confidence, develop a deeper connection with your body, health, and self, and make life-long friends!
+    p Join one of our teen women’s “pods” or bring your own “pod” to us!  Max 1:5 guide to teen ratio. Group activities are customized to teen interest!
+    p
+     span ACTIVITIES MAY INCLUDE:
+     |  Hiking, wilderness survival and ancestral skills (i.e. animal tracking, wild crafting, plant ID, bird language, fire building, etc), nature art and journaling, dance and movement, creative projects, self-reflection and exploration, community building, leadership development, mindful listening and communication, women’s hormone cycle awareness, self-care, body confidence, self-empowerment, and more!
+   h3(class="green") SANTA CRUZ
+   p(class="trimTop")
+     span DATE/TIME:
+     |  6-week sessions after school (3-4 hours) OR weekend retreats
+     br
+     span LOCATION:
+     |  Multiple locations throughout Santa Cruz, including Henry Cowell, Fall Creek, Wilder Ranch, Natural Bridges, Pogonip, and Nisene Marks. Exact locations depend on the needs of the group.
+   h3(class="green") PRICE:
+   p(class="trimTop")
+     | Dependent upon number of teens and meetings per week.
+     br
+     | EX: For 3.5 hours once per week: $300 for 6-weeks
+     br
+     | Scholarships available! Please contact us for more information.
 
     h2(class="blue")
       a(id="registration" class="blue") Registration
 
     p To register and/or ask us questions, please contact Deanna Falge:
     p 831-234-1874
-    p thriveyoungleaders@gmail.com
+    p
+      a(thriveyoungleaders@gmail.com
 
 
     h2(class="purple")
       a(id="theguides" class="purple") ABOUT THE GUIDES
 
     p Guides are Ecotherapy and CPR/FA/AED Certified!
-
     div(class='imageText stacked topGutter', id='deanna-falge')
       img(src='/img/deanna-bio.jpg' )
       div(class='container ')
@@ -102,3 +104,10 @@ extends(src='layout.sgr')
         h2(class="trimTop") EMILY CONTRERAS (“Birdie”)
         h3 Outdoor Educator, Youth Mentor, Permaculturalist
         p Birdie (Emily’s nature name) has worked with youth for the past 8+ years as a mentor, tutor, gymnastics coach, nature-connection guide, and outdoor educator. Born and raised in Los Angeles, Birdie was able to connect with the natural realm through mud fights in her backyard, friendships with her pets, and regular visits to local parks, but was limited in developing a deeper connection with the more-than-human world until she moved to Santa Cruz in her young adulthood. Since beginning her work as an outdoor educator, Birdie has studied ecotherapy, permaculture design, ecovillage design, agroforestry, nature awareness, primitive skills, youth mentorship, and The Work That Reconnects, as a way to be of better service to the youth that she works with. She is dedicated to working towards a more sustainable and integrated way of living with our mother Earth and all of her inhabitants. By incorporating all that she learns in her environmental and social studies into her mentoring style, Birdie hopes to inspire and aid youth (including teen women) in connecting more deeply with themselves, one another, and our beloved planet.
+
+    div(class='imageText stacked topGutter' id="rylan-hunt")
+      img(src='/img/rylan-backpack.jpg' )
+      div(class='container ')
+        h2 Rylan Hunt
+        h3 Outdoor Educator, Youth Mentor, Academic Guide
+        p Rylan grew up in Santa Cruz and earned a BS degree in Physics at UC Berkeley. He has been tutoring and coaching students for many years, and especially loves to tutor AP Physics and math. When he isn’t tutoring, Rylan loves to travel the world, surf big waves, and forage for exotic mushrooms.
