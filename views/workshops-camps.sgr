@@ -70,8 +70,7 @@ extends(src='layout.sgr')
 
     p To register and/or ask us questions, please contact Deanna Falge:
     p 831-234-1874
-    p
-      a(thriveyoungleaders@gmail.com
+    p thriveyoungleaders@gmail.com
 
 
     h2(class="purple")

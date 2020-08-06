@@ -31,7 +31,7 @@ extends(src='layout.sgr')
         |  that are COVID safe!
         br
         | Check out our programs 
-        a(href="/group-guidance") here
+        a(href="/workshops-camps") here
         | .
 
     hr
