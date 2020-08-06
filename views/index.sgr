@@ -10,7 +10,7 @@ extends(src='layout.sgr')
     div(class="bannerCtaContainer")
       img(src='/img/girl-field-sun-1200x511.jpg' class='headerBanner' alt='')
       a(href='/group-guidance' class="workshopsButton")
-        img(src='/img/workshops-summer-camps.png' alt="Teen Womens April Workshops and Summer Camps")
+        img(src='/img/workshops-summer-camps.png' alt="Group Guidance")
 
     section(class="intro")
       p
