@@ -19,18 +19,21 @@ extends(src='layout.sgr')
         | their own lives, environment, and community.
       p
         | We offer
-        b  1-on-1 Nature-based Life Coaching, Mentoring, Holistic Tutoring, Academic Coaching, and Group Workshops, Retreats, and After-School Programs
-        br
+        b 1-on-1 Nature-based Life Coaching, Mentoring, Holistic Tutoring, Academic Coaching, and Group Workshops, Retreats, and After-School Programs
         |  in Santa Cruz and Los Gatos,
-        br
-        | California, & Online.
+        |  California, & Online.
 
       p
         | For the 2020/2021 school year, we are offering
         b  After-School Outdoor Teen Programs
         |  that are COVID safe!
         br
-        | Check out our programs 
+        | Check out our 1-on-1 programs
+        |
+        a(href="offerings") here
+        br
+        | Check out our group programs
+        |  
         a(href="/group-guidance") here
         | .
 

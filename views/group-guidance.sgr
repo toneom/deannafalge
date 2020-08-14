@@ -8,8 +8,13 @@ extends(src='layout.sgr')
     div(class="bannerCtaContainer")
       img(src='/img/group-hike.jpg' class='headerBanner' alt='nature-connection, community building, self exploration')
 
-    h1(class='centered') Group Guidance
-
+    h1(class='centered ') Group Guidance
+    p(class="subheader")
+      | (Looking for 1-on-1 Guidance?
+      |
+      a(href="/offerings") Click here
+      | )
+    br
     div(class='anchorMenu')
       a(href='#outdoorteengroups' class="red") OUTDOOR TEEN GROUPS
       a(href='#teenwomensgroups' class="green") TEEN WOMEN'S GROUPS

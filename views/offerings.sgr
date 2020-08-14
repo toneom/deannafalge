@@ -1,7 +1,7 @@
 extends(src='layout.sgr')
   block(name='title')
     meta(name='description' content='Offering Nature-Based Life Coaching, Mentoring, Guidance, Tutoring, and Academic Coaching.')
-    title Offerings | Thrive
+    title 1-on-1 Guidance | Thrive
 
   block(name='content')
     img(src='/img/hiker.jpg' class='headerBanner' alt='hiker')
