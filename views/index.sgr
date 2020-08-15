@@ -19,6 +19,7 @@ extends(src='layout.sgr')
         | their own lives, environment, and community.
       p
         | We offer
+        |
         b 1-on-1 Nature-based Life Coaching, Mentoring, Holistic Tutoring, Academic Coaching, and Group Workshops, Retreats, and After-School Programs
         |  in Santa Cruz and Los Gatos,
         |  California, & Online.
@@ -33,7 +34,7 @@ extends(src='layout.sgr')
         a(href="offerings") here
         br
         | Check out our group programs
-        |  
+        |
         a(href="/group-guidance") here
         | .
 
