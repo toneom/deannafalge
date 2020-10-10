@@ -1,34 +1,33 @@
 extends(src='layout.sgr')
   block(name='title')
-    meta(name='description' content='Offering Nature-Based Life Coaching, Mentoring, Guidance, Tutoring, and Academic Coaching.')
+    meta(name='description' content='Offering Life Coaching, Mentoring, Guidance, Tutoring, and Academic Coaching.')
     title 1-on-1 Guidance | Thrive
 
   block(name='content')
     img(src='/img/hiker.jpg' class='headerBanner' alt='hiker')
 
-    h2(class='centered') Nature-Connected Life Coaching & Mentoring
+    p COVID Statement: In effort to protect our community, we are offering all services outside while social distancing (6-ft distance) or online. We will respect your personal boundaries, so please let us know what works best for you!
+    hr
+    h2(class='centered') Life Coaching & Mentoring
     p
-      | Through 1-on-1 Nature-Connected Life Coaching & Mentoring, we guide teens and young
-      | adults into an authentic, loving, and purposeful connection with their self, community,
-      | nature, and life path. With nature as our co-guide, we combine philosophies and methods in
-      | ecotherapy, gestalt therapy, life coaching, outdoor education, coyote mentoring, 8 shields
-      | philosophy, the four-shields model, non-violent communication, neuroscience, biological
-      | psychology, and ecopsychology. In this work, we help people:
-
+      | Through 1-on-1 Life Coaching & Mentoring, Deanna Falge (Founder, Lead Coach & Mentor) guides teens and young adults in overcoming internal barriers and challenges so that they can live a purposeful, deeply connected and balanced life. Sessions are typically held outside in nature, online or by phone. Deanna applies theory and methodology from Ecotherapy, Rites of Passage, Partswork, Somatic Therapy, Trauma Healing, Gestalt Therapy, Professional Life Coaching, Outdoor Education, Coyote
+      | Mentoring, Non-Violent Communication, Neuroscience, Mindfulness and Ecopsychology. In this work, she helps folks:
     ul(class='centered')
-      li Cultivate Self-Love & Compassion
+      li Transition Gracefully Into Adulthood
+      li Cultivate Radical Self-Compassion
       li Connect with Gifts & Life Purpose
+      li Process & Heal Climate Grief
       li Build Deep Listening Skills
       li Communicate Mindfully
+      li Heal & Prevent Stress & Anxiety
       li Develop a Strong Sense of Self
       li Raise Self Confidence & Esteem
       li Develop Positive Body Image
       li Grow a Deep Relationship with Nature
       li Increase Mindfulness & Compassion for Others
       li Inspire, Set, & Actualize Intentions & Goals
-      li Heal & Prevent Stress & Anxiety
       li Nurture Healthy Technology Use
-      li Heal & Process Climate Grief
+      li Process & Heal Trauma
       li Lead a Balanced Lifestyle
       li Become True Leaders
 

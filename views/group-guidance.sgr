@@ -1,6 +1,6 @@
 extends(src='layout.sgr')
   block(name='title')
-    meta(name='description' content='Offering Nature-Based Life Coaching, Mentoring, Guidance, Tutoring, and Academic Coaching.')
+    meta(name='description' content='Offering Life Coaching, Mentoring, Guidance, Tutoring, and Academic Coaching.')
     title Group Guidance | Thrive
 
   block(name='content')
@@ -87,7 +87,7 @@ extends(src='layout.sgr')
       img(src='/img/deanna-bio.jpg' )
       div(class='container ')
         h2 Deanna Falge
-        h3 Nature-Connected Life Coach & Guide, Youth Mentor, Outdoor Educator, BS Biological Psychology
+        h3 Life Coach & Guide, Youth Mentor, Outdoor Educator, BS Biological Psychology
         p.
           Deanna Falge founded Thrive Young Leaders out of her love for connecting with youth. Deanna’s passion and life mission is to empower Earth’s young leaders (especially young women) into deep and meaningful connection with nature, community, and self. When she was a teen woman, Deanna struggled with feeling disconnected from the world, and ultimately herself. Now that Deanna has discovered her connection and belonging to Earth and humanity, she is passionate about offering the nature-connected guidance, support, and community that all teen women need and deserve to live an empowered, connected, and abundant life!
         p.

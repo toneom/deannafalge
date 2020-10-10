@@ -13,7 +13,7 @@ extends(src='layout.sgr')
       At Thrive Young Leaders, we help teens and young adults overcome internal barriers and guide them into deeper connection with their gifts,
       life purpose, and inner knowing.  By connecting with our gifts and living a purpose-directed life, we become empowered leaders of our own lives, and true leaders of our environment and community.
     p.
-      As a small group of passionate guides, mentors, tutors, teachers, and coaches, we connect teens and young adults to their self, community, and nature through 1-on-1 Nature-Connected Life Coaching, mentoring, holistic tutoring, academic coaching, events, group workshops, and retreats. We are trained in a variety of philosophies and disciplines, including ecopsychology, biological psychology, life-coaching, tutoring, ecotherapy, mindfulness, non-violent communication, physics, neuroscience, environmental science, leadership, outdoor education, coyote mentoring, the four shields model, ancestral skills, wilderness survival skills, and rite of passage.
+      As a small group of passionate guides, mentors, tutors, teachers, and coaches, we connect teens and young adults to their self, community, and nature through 1-on-1 Professional Life Coaching, Mentoring, Holistic Tutoring, Academic Coaching, Events, Group Workshops, and Retreats. We are trained in a variety of philosophies and disciplines, including ecopsychology, biological psychology, life-coaching, tutoring, ecotherapy, mindfulness, non-violent communication, physics, neuroscience, environmental science, leadership, outdoor education, coyote mentoring, the four shields model, ancestral skills, wilderness survival skills, and rite of passage.
     p.
       Above all, we are in love with Earth and humanity, and we are dedicated to the health, well-being, and sustainability of our present and future planet.
 
@@ -24,7 +24,7 @@ extends(src='layout.sgr')
       img(src='/img/deanna-bio.jpg' )
       div(class='container ')
         h2 Deanna Falge
-        h3 Founder, Director, Nature-Connected Life Coach, Mentor, Academic Guide
+        h3 Founder, Director, Life Coach, Mentor, Academic Guide
         p.
          Deanna founded Thrive out of her love for connecting with youth. Today, Deanna’s passion and life mission is to help heal Earth and humanity by empowering and guiding Earth’s young leaders into deeper connection with nature, community, and self.
          Deanna has experience and formal education in psychology, ecotherapy, biological psychology, outdoor education, life coaching, mentoring, tutoring, academic coaching, scientific research, ancestral skills and history, wilderness survival skills, leadership, soul exploration, mindfulness, nonviolent communication, rite of passage, and nature connection. She earned a degree in Biological Psychology from UC Santa Barbara, and has years of teaching, coaching, tutoring, and mentoring experience. Deanna received her Certificate in Ecotherapy from the Earth Body Institute, and is currently earning her Nature-Connected Life Coaching Certification through a year-long intensive program at the Earth Based Institute. By combining her knowledge and experience with her deep compassion and passion for serving Earth and humanity, Deanna designs whole-hearted, transformational programs for every teen and young adult at Thrive.
