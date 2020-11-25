@@ -6,9 +6,9 @@ extends(src='layout.sgr')
   block(name='content')
 
     div(class="bannerCtaContainer")
-      img(src='/img/teen-womens-banner.jpg' class='headerBanner' alt='nature-connection, community building, self exploration')
+      img(src='/img/group-hike.jpg' class='headerBanner' alt='nature-connection, community building, self exploration')
 
-    h1(class='centered') Teen Women’s Groups
+    h1(class='centered ') Group Guidance
     p(class="subheader")
       | (Looking for 1-on-1 Guidance?
       |
@@ -16,89 +16,60 @@ extends(src='layout.sgr')
       | )
     br
     div(class='anchorMenu')
-      a(href='#outdoorteengroups' class="red") Outdoor Leaders Program
-      a(href='#teenwomensgroups' class="green") Senior Year Mentorship
-      a(href='#registration' class="blue") Registration
-      a(href='#theguides' class="purple") The Guides
+      a(href='#outdoorteengroups' class="red") OUTDOOR TEEN GROUPS
+      a(href='#teenwomensgroups' class="green") TEEN WOMEN'S GROUPS
+      a(href='#registration' class="blue") REGISTRATION
+      a(href='#theguides' class="purple") THE GUIDES
 
     p
-      b Covid Statement: In effort to protect your teen and our community, we are running our small teen mentorship programs outside while following social distancing (6-ft distance) and frequent sanitization. Max 6 teens per group.
+      b COVID Statement: In effort to protect your teen and our community, we are running our small teen groups while following social distancing (6-ft distance) and frequent sanitization. Masks are optional. We will respect each teen’s and family’s personal boundaries. Families can choose to bring their own “pod” to us, or join one of our “pods” (see below). Maximum 1:5 guide to teen ratio.
     h2(class="red")
-      a(id="outdoorteengroups" class="red") Outdoor Leaders Program
+      a(id="outdoorteengroups" class="red") OUTDOOR TEEN GROUPS
 
-    p For Teen Women* Ages 14-17. Max 6 Teens.
-
-    p Join us this February-May 2021 to learn and thrive in:
+    p Join one of our teen “pods” or bring your own “pod” to us!
+    p For all teens, ages 13-17! We are offering Covid safe after-school teen group programs in Santa Cruz. Families can choose to bring their own pod of teens to us for a customized program OR we will create a teen pod for you! Max 1:5 guide to teen ratio. Group activities and guides are customized to teen interest!
     p
-      b Self-Leadership
-      br
-      b Community-Leadership
-      br
-      b & Earth-Leadership
+     span ACTIVITIES MAY INCLUDE:
+     |  Hiking, wilderness survival and ancestral skills (i.e. animal tracking, wild crafting, plant ID, bird language, fire building, shelter building, etc), nature art and journaling, dance and movement, creative projects, self-reflection and exploration, community building, leadership development, mindful listening and communication, empowerment and confidence building, and more!
 
-
-    h3(class="red") Why Join?
+    h3(class="red") SANTA CRUZ
     p(class="trimTop")
-      | We are ALL leaders, and each teen woman has the ability to lead a big difference in their own lives, community, and environment. Over the course of five months together, each teen will discover their own sense of leadership, and will learn concrete skills for directing the health and wellbeing of their personal lives and relationships. As a community, we will learn how to tend, protect, and care for Earth so that we can build a sustainable future. Through a deep bond of women
-      | friendships, group-led community projects, and instruction in nature-connection, sustainability, nonviolent communication, community building, and powerful self-care practices, we will cultivate a community of strong teen women leaders.
-
-    p Each teen woman will receive a Certificate upon completion!
-
-    h3(class="red") Dates/Times
-    p(class="trimTop")
-    | 5 In-person Group Meetings, once/month on Sat. 11-3pm:
-    br
-    | 2/6, 3/6, 3/27, 5/1, 5/22
-    br
-    | 5 Group Zoom Calls, once/month on Wed. 6-7pm:
-    br
-    | 2/17, 3/17, 4/14, 4/28, 5/12
-    br
-    | 10 Life Coaching Sessions (1-on-1) - Optional
-
-    h3(class="red") Locations:
-    p(class="trimTop") State Parks and Open Spaces throughout Santa Cruz (please call for exact locations)
-
-    h3(class="red") Price:
-    p(class="trimTop")
-      | $525 for Group Meetings
+      span DATE/TIME:
+      |  6-week sessions after school (3-4 hours) OR weekend retreats
       br
-      | Add/Optional $725 for 10 Life Coaching Sessions
-      br
-      | Scholarships Available!
+      span LOCATION:
+      |  Multiple locations throughout Santa Cruz, including Henry Cowell, Fall Creek, Wilder Ranch, Natural Bridges, Pogonip, and Nisene Marks. Exact locations depend on the needs of the group.
 
-    p *Women includes LGBTQIA+ teens
+    h3(class="red") PRICE:
+    p(class="trimTop")
+      | Dependent upon number of teens and meetings per week.
+      br
+      | EX: For 3.5 hours once per week: $300 for 6-weeks
+      br
+      | Scholarships available! Please contact us for more information.
 
 
     h2(class="green")
-      a(id="teenwomensgroups" class="green") Senior Year Mentorship
-    p For Graduating High School Senior Women*. Max 6 teens.
-    p Join us this February-May 2021 for powerful support and mentorship in transitioning from adolescence to young adult womanhood through celebration and deep connection with community, nature, and self.
-    h3(class="green") Why Join?
-    p(class="trimTop") Mentoring and guiding teens through the transition into young adulthood is absolutely crucial for a sustainable society– it allows each individual to discover their own sense of self, belonging, and purpose in community. Graduating high school marks our cultures first collective step into adulthood, but is not typically guided and celebrated in an effective and meaningful manner (especially with school and graduation being online). In our 5-month program, each teen woman will be provided with the mentorship and guidance to confidently step into their first phase of young adulthood. We will learn essential life skills for leading a healthy and happy life, as well as build a community of life-long friends. Our program will end in May with a ceremonial celebration to mark each teen’s transition into young adult womanhood!
-    h3(class="green") Dates/Times:
-    p(class="trimTop")
-     | 5 In-person Group Meetings, once/month on Sat. 11-3pm:
+      a(id="teenwomensgroups" class="green") TEEN WOMEN'S GROUPS
+    p For teen women ages 13-17! Join us to learn nature connection and survival skills, build self-confidence, develop a deeper connection with your body, health, and self, and make life-long friends!
+    p Join one of our teen women’s “pods” or bring your own “pod” to us!  Max 1:5 guide to teen ratio. Group activities are customized to teen interest!
+    p
+     span ACTIVITIES MAY INCLUDE:
+     |  Hiking, wilderness survival and ancestral skills (i.e. animal tracking, wild crafting, plant ID, bird language, fire building, etc), nature art and journaling, dance and movement, creative projects, self-reflection and exploration, community building, leadership development, mindful listening and communication, women’s hormone cycle awareness, self-care, body confidence, self-empowerment, and more!
+   h3(class="green") SANTA CRUZ
+   p(class="trimTop")
+     span DATE/TIME:
+     |  6-week sessions after school (3-4 hours) OR weekend retreats
      br
-     | 2/27, 3/20, 4/17, 5/8, 5/29
+     span LOCATION:
+     |  Multiple locations throughout Santa Cruz, including Henry Cowell, Fall Creek, Wilder Ranch, Natural Bridges, Pogonip, and Nisene Marks. Exact locations depend on the needs of the group.
+   h3(class="green") PRICE:
+   p(class="trimTop")
+     | Dependent upon number of teens and meetings per week.
      br
-     | 5 Group Zoom Calls, once/month on Tues. 6-7pm:
+     | EX: For 3.5 hours once per week: $300 for 6-weeks
      br
-     | 3/9, 3/30, 4/27, 5/11, 5/25
-     br
-     | 10 Life Coaching Sessions (1-on-1) - Optional
-     br
-    h3(class="green") Locations
-    p(class="trimTop") State Parks and Open Spaces throughout Santa Cruz (please call for exact locations)
-    h3(class="green") Price
-    p(class="trimTop")
-      | $525 for Group Meetings
-      br
-      | Add/Optional $725 for 10 Life Coaching Sessions
-      br
-      | Scholarships Available!
-
-    p *Women includes LGBTQIA+ teens
+     | Scholarships available! Please contact us for more information.
 
     h2(class="blue")
       a(id="registration" class="blue") Registration
@@ -115,8 +86,7 @@ extends(src='layout.sgr')
     div(class='imageText stacked topGutter', id='deanna-falge')
       img(src='/img/deanna-bio.jpg' )
       div(class='container ')
-      p(class="caption") Lead Guide:
-        h2(class="trimTop") Deanna Falge
+        h2 Deanna Falge
         h3 Life Coach & Guide, Youth Mentor, Outdoor Educator, BS Biological Psychology
         p.
           Deanna Falge founded Thrive Young Leaders out of her love for connecting with youth. Deanna’s passion and life mission is to empower Earth’s young leaders (especially young women) into deep and meaningful connection with nature, community, and self. When she was a teen woman, Deanna struggled with feeling disconnected from the world, and ultimately herself. Now that Deanna has discovered her connection and belonging to Earth and humanity, she is passionate about offering the nature-connected guidance, support, and community that all teen women need and deserve to live an empowered, connected, and abundant life!
@@ -139,3 +109,10 @@ extends(src='layout.sgr')
         h2(class="trimTop") EMILY CONTRERAS (“Birdie”)
         h3 Outdoor Educator, Youth Mentor, Permaculturalist
         p Birdie (Emily’s nature name) has worked with youth for the past 8+ years as a mentor, tutor, gymnastics coach, nature-connection guide, and outdoor educator. Born and raised in Los Angeles, Birdie was able to connect with the natural realm through mud fights in her backyard, friendships with her pets, and regular visits to local parks, but was limited in developing a deeper connection with the more-than-human world until she moved to Santa Cruz in her young adulthood. Since beginning her work as an outdoor educator, Birdie has studied ecotherapy, permaculture design, ecovillage design, agroforestry, nature awareness, primitive skills, youth mentorship, and The Work That Reconnects, as a way to be of better service to the youth that she works with. She is dedicated to working towards a more sustainable and integrated way of living with our mother Earth and all of her inhabitants. By incorporating all that she learns in her environmental and social studies into her mentoring style, Birdie hopes to inspire and aid youth (including teen women) in connecting more deeply with themselves, one another, and our beloved planet.
+
+    div(class='imageText stacked topGutter' id="rylan-hunt")
+      img(src='/img/rylan-backpack.jpg' )
+      div(class='container ')
+        h2 Rylan Hunt
+        h3 Outdoor Educator, Youth Mentor, Academic Guide
+        p Rylan grew up in Santa Cruz and earned a BS degree in Physics at UC Berkeley. He has been tutoring and coaching students for many years, and especially loves to tutor AP Physics and math. When he isn’t tutoring, Rylan loves to travel the world, surf big waves, and forage for exotic mushrooms.
