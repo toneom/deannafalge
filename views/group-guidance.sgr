@@ -109,7 +109,7 @@ extends(src='layout.sgr')
 
 
     h2(class="purple")
-      a(id="theguides" class="purple") ABOUT THE GUIDES
+      a(id="theguides" class="purple") About the Guides
 
     p Guides are Ecotherapy and CPR/FA/AED Certified!
     div(class='imageText stacked topGutter', id='deanna-falge')
