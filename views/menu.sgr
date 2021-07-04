@@ -11,7 +11,7 @@ nav
       a(href="#" class="toggleDropdown") Offerings
       div(id="myDropdown" class="dropdown-content")
         a(href="/offerings") 1-on–1 Guidance
-        a(href="/group-guidance") Group Guidance
+        // a(href="/group-guidance") Group Guidance
     li
       a(href="/about") About
     li

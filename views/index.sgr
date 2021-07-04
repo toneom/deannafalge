@@ -9,8 +9,8 @@ extends(src='layout.sgr')
   block(name='content')
     div(class="bannerCtaContainer")
       img(src='/img/girl-field-sun-1200x511.jpg' class='headerBanner' alt='')
-      a(href='/group-guidance' class="workshopsButton")
-        img(src='/img/workshops-summer-camps.png' alt="Group Guidance")
+      //a(href='/group-guidance' class="workshopsButton")
+      //  img(src='/img/workshops-summer-camps.png' alt="Group Guidance")
 
     section(class="intro")
       p
@@ -32,10 +32,10 @@ extends(src='layout.sgr')
         | Check out our 1-on-1 programs
         |
         a(href="offerings") here
-        br
-        | Check out our group programs
-        |
-        a(href="/group-guidance") here
+        // br
+        // | Check out our group programs
+        // |
+        // a(href="/group-guidance") here
         | .
 
     hr

@@ -9,6 +9,10 @@ extends(src='layout.sgr')
     p
       span Phone:
       a(href="tel:831.234.1874") 831.234.1874
+      br
+      i Update: Deanna is out in the field guiding wilderness rites of passage until the end of July 2021!
+      br
+      i She will respond to your message upon her return!
 
     form(name="contact" action="contact-success.html" method="post" netlify)
       p
